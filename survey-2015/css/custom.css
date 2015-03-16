@@ -121,6 +121,10 @@ body {
   float: none;
 }
 
+._pad-left-xs {
+  padding-left: 5px;
+}
+
 /* Section Elements */
 
 .splash-content {

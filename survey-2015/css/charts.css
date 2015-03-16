@@ -1,3 +1,250 @@
+/* ------- PROFILE ------- */
+
+/* --- V. Gender --- */
+
+.bar-set ul li.gender-male {
+  width: 92.1%;
+}
+
+.bar-set ul li.gender-male span {
+  left: 92.1%;
+}
+
+.bar-set ul li.gender-female {
+  width: 5.8%;
+}
+
+.bar-set ul li.gender-female span {
+  left: 5.8%;
+}
+
+.bar-set ul li.gender-nodisclose {
+  width: 1.7%;
+}
+
+.bar-set ul li.gender-nodisclose span {
+  left: 1.7%;
+}
+
+.bar-set ul li.gender-other {
+  width: 0.5%;
+}
+
+.bar-set ul li.gender-other span {
+  left: 0.5%;
+}
+
+/* --- VI. Women in Technical Fields --- */
+
+.bar-set ul li.women-11plus {
+  width: 9.5%;
+}
+
+.bar-set ul li.women-11plus span {
+  left: 9.5%;
+}
+
+.bar-set ul li.women-6-10 {
+  width: 15.1%;
+}
+
+.bar-set ul li.women-6-10 span {
+  left: 15.1%;
+}
+
+.bar-set ul li.women-2-5 {
+  width: 30.1%;
+}
+
+.bar-set ul li.women-2-5 span {
+  left: 30.1%;
+}
+
+.bar-set ul li.women-lessthan2 {
+  width: 37.1%;
+}
+
+.bar-set ul li.women-lessthan2 span {
+  left: 37.1%;
+}
+
+
+/* --- VII. Education --- */
+
+.bar-set ul li.education-none {
+  width: 41.8%;
+}
+
+.bar-set ul li.education-none span {
+  left: 41.8%;
+}
+
+.bar-set ul li.education-bs {
+  width: 37.7%;
+}
+
+.bar-set ul li.education-bs span {
+  left: 37.7%;
+}
+
+.bar-set ul li.education-onthejob {
+  width: 36.7%;
+}
+
+.bar-set ul li.education-onthejob span {
+  left: 36.7%;
+}
+
+.bar-set ul li.education-ms {
+  width: 18.4%;
+}
+
+.bar-set ul li.education-ms span {
+  left: 18.4%;
+}
+
+.bar-set ul li.education-online {
+  width: 17.8%;
+}
+
+.bar-set ul li.education-online span {
+  left: 17.8%;
+}
+
+.bar-set ul li.education-somecollege {
+  width: 16.7%;
+}
+
+.bar-set ul li.education-somecollege span {
+  left: 16.7%;
+}
+
+.bar-set ul li.education-certification {
+  width: 6.1%;
+}
+
+.bar-set ul li.education-certification span {
+  left: 6.1%;
+}
+
+.bar-set ul li.education-bootcamp {
+  width: 3.5%;
+}
+
+.bar-set ul li.education-bootcamp span {
+  left: 3.5%;
+}
+
+.bar-set ul li.education-phd {
+  width: 2.2%;
+}
+
+.bar-set ul li.education-phd span {
+  left: 2.2%;
+}
+
+.bar-set ul li.education-mentorship {
+  width: 1.0%;
+}
+
+.bar-set ul li.education-mentorship span {
+  left: 1.0%;
+}
+
+
+/* --- VIII. Experience  --- */
+
+.bar-set ul li.exp-11plus {
+  width: 24.2%;
+}
+
+.bar-set ul li.exp-11plus span {
+  left: 24.2%;
+}
+
+.bar-set ul li.exp-6-10 {
+  width: 23.2%;
+}
+
+.bar-set ul li.exp-6-10 span {
+  left: 23.2%;
+}
+
+.bar-set ul li.exp-2-5 {
+  width: 32.4%;
+}
+
+.bar-set ul li.exp-2-5 span {
+  left: 32.4%;
+}
+
+.bar-set ul li.exp-1-2 {
+  width: 13.6%;
+}
+
+.bar-set ul li.exp-1-2 span {
+  left: 13.6%;
+}
+
+.bar-set ul li.exp-lessthan1 {
+  width: 6.6%;
+}
+
+.bar-set ul li.exp-lessthan1 span {
+  left: 6.6%;
+}
+
+/* --- IX. Side Projects and Open Source --- */
+
+.bar-set ul li.sideprojects-20plus {
+  width: 9.5%;
+}
+
+.bar-set ul li.sideprojects-20plus span {
+  left: 9.5%;
+}
+
+.bar-set ul li.sideprojects-10-20 {
+  width: 12.4%;
+}
+
+.bar-set ul li.sideprojects-10-20 span {
+  left: 12.4%;
+}
+
+.bar-set ul li.sideprojects-5-10 {
+  width: 23.2%;
+}
+
+.bar-set ul li.sideprojects-5-10 span {
+  left: 23.2%;
+}
+
+.bar-set ul li.sideprojects-2-5 {
+  width: 27.3%;
+}
+
+.bar-set ul li.sideprojects-2-5 span {
+  left: 27.3%;
+}
+
+.bar-set ul li.sideprojects-1-2 {
+  width: 19.2%;
+}
+
+.bar-set ul li.sideprojects-1-2 span {
+  left: 19.2%;
+}
+
+.bar-set ul li.sideprojects-none {
+  width: 8.3%;
+}
+
+.bar-set ul li.sideprojects-none span {
+  left: 8.3%;
+}
+
+
 /* ------- TECHNOLOGY ------- */
 
 /* --- I. Programming Languages --- */
@@ -546,3 +793,1325 @@
   left: 8.0%;
 }
 
+/* --- III. Operating System --- */
+
+/* 2015 */
+
+.bar-set.os-2015 ul li.os-windows7 {
+  width: 33.8%;
+}
+
+.bar-set.os-2015 ul li.os-windows7 span {
+  left: 33.8%;
+}
+
+.bar-set.os-2015 ul li.os-osx {
+  width: 21.5%;
+}
+
+.bar-set.os-2015 ul li.os-osx span {
+  left: 21.5%;
+}
+
+.bar-set.os-2015 ul li.os-linux {
+  width: 20.5%;
+}
+
+.bar-set.os-2015 ul li.os-linux span {
+  left: 20.5%;
+}
+
+.bar-set.os-2015 ul li.os-windows8 {
+  width: 19.5%;
+}
+
+.bar-set.os-2015 ul li.os-windows8 span {
+  left: 19.5%;
+}
+
+.bar-set.os-2015 ul li.os-windowsxp {
+  width: 1.0%;
+}
+
+.bar-set.os-2015 ul li.os-windowsxp span {
+  left: 1.0%;
+}
+
+.bar-set.os-2015 ul li.os-windowsvista {
+  width: 0.4%;
+}
+
+.bar-set.os-2015 ul li.os-windowsvista span {
+  left: 0.4%;
+}
+
+.bar-set.os-2015 ul li.os-other {
+  width: 3.5%;
+}
+
+.bar-set.os-2015 ul li.os-other span {
+  left: 3.5%;
+}
+
+/* 2014 */
+
+.bar-set.os-2014 ul li.os-windows7 {
+  width: 45.6%;
+}
+
+.bar-set.os-2014 ul li.os-windows7 span {
+  left: 45.6%;
+}
+
+.bar-set.os-2014 ul li.os-osx {
+  width: 20.3%;
+}
+
+.bar-set.os-2014 ul li.os-osx span {
+  left: 20.3%;
+}
+
+.bar-set.os-2014 ul li.os-linux {
+  width: 20.9%;
+}
+
+.bar-set.os-2014 ul li.os-linux span {
+  left: 20.9%;
+}
+
+.bar-set.os-2014 ul li.os-windows8 {
+  width: 6.4%;
+}
+
+.bar-set.os-2014 ul li.os-windows8 span {
+  left: 6.4%;
+}
+
+.bar-set.os-2014 ul li.os-windowsxp {
+  width: 5.9%;
+}
+
+.bar-set.os-2014 ul li.os-windowsxp span {
+  left: 5.9%;
+}
+
+.bar-set.os-2014 ul li.os-windowsvista {
+  width: 0%;
+}
+
+.bar-set.os-2014 ul li.os-windowsvista span {
+  left: 0%;
+}
+
+.bar-set.os-2014 ul li.os-other {
+  width: 0.5%;
+}
+
+.bar-set.os-2014 ul li.os-other span {
+  left: 0.5%;
+}
+
+/* 2013 */
+
+.bar-set.os-2013 ul li.os-windows7 {
+  width: 48.0%;
+}
+
+.bar-set.os-2013 ul li.os-windows7 span {
+  left: 48.0%;
+}
+
+.bar-set.os-2013 ul li.os-osx {
+  width: 18.7%;
+}
+
+.bar-set.os-2013 ul li.os-osx span {
+  left: 18.7%;
+}
+
+.bar-set.os-2013 ul li.os-linux {
+  width: 19.9%;
+}
+
+.bar-set.os-2013 ul li.os-linux span {
+  left: 19.9%;
+}
+
+.bar-set.os-2013 ul li.os-windows8 {
+  width: 0%;
+}
+
+.bar-set.os-2013 ul li.os-windows8 span {
+  left: 0%;
+}
+
+.bar-set.os-2013 ul li.os-windowsxp {
+  width: 10.8%;
+}
+
+.bar-set.os-2013 ul li.os-windowsxp span {
+  left: 10.8%;
+}
+
+.bar-set.os-2013 ul li.os-windowsvista {
+  width: 1.6%;
+}
+
+.bar-set.os-2013 ul li.os-windowsvista span {
+  left: 1.6%;
+}
+
+.bar-set.os-2013 ul li.os-other {
+  width: 1.0%;
+}
+
+.bar-set.os-2013 ul li.os-other span {
+  left: 1.0%;
+}
+
+/* --- IV. Text Editor --- */
+
+.bar-set ul li.editor-notepad {
+  width: 34.7%;
+}
+
+.bar-set ul li.editor-notepad span {
+  left: 34.7%;
+}
+
+.bar-set ul li.editor-sublime {
+  width: 25.2%;
+}
+
+.bar-set ul li.editor-sublime span {
+  left: 25.2%;
+}
+
+.bar-set ul li.editor-vim {
+  width: 15.2%;
+}
+
+.bar-set ul li.editor-vim span {
+  left: 15.2%;
+}
+
+.bar-set ul li.editor-emacs {
+  width: 3.8%;
+}
+
+.bar-set ul li.editor-emacs span {
+  left: 3.8%;
+}
+
+.bar-set ul li.editor-atomio {
+  width: 2.8%;
+}
+
+.bar-set ul li.editor-atomio span {
+  left: 2.8%;
+}
+
+.bar-set ul li.editor-textmate {
+  width: 1.4%;
+}
+
+.bar-set ul li.editor-textmate span {
+  left: 1.4%;
+}
+
+.bar-set ul li.editor-coda {
+  width: 0.7%;
+}
+
+.bar-set ul li.editor-coda span {
+  left: 0.7%;
+}
+
+.bar-set ul li.editor-xemacs {
+  width: 0.3%;
+}
+
+.bar-set ul li.editor-xemacs span {
+  left: 0.3%;
+}
+
+.bar-set ul li.editor-other {
+  width: 16.2%;
+}
+
+.bar-set ul li.editor-other span {
+  left: 16.2%;
+}
+
+/* --- V. IDE Theme --- */
+
+.bar-set ul li.ide-dark {
+  width: 52.5%;
+}
+
+.bar-set ul li.ide-dark span {
+  left: 52.5%;
+}
+
+.bar-set ul li.ide-light {
+  width: 39.9%;
+}
+
+.bar-set ul li.ide-light span {
+  left: 39.9%;
+}
+
+.bar-set ul li.ide-nousage {
+  width: 7.7%;
+}
+
+.bar-set ul li.ide-nousage span {
+  left: 7.7%;
+}
+
+/* --- VI. Source Control --- */
+
+.bar-set ul li.source-git {
+  width: 69.3%;
+}
+
+.bar-set ul li.source-git span {
+  left: 69.3%;
+}
+
+.bar-set ul li.source-svn {
+  width: 36.9%;
+}
+
+.bar-set ul li.source-svn span {
+  left: 36.9%;
+}
+
+.bar-set ul li.source-tfs {
+  width: 12.2%;
+}
+
+.bar-set ul li.source-tfs span {
+  left: 12.2%;
+}
+
+.bar-set ul li.source-mercurial {
+  width: 7.9%;
+}
+
+.bar-set ul li.source-mercurial span {
+  left: 7.9%;
+}
+
+.bar-set ul li.source-cvs {
+  width: 4.2%;
+}
+
+.bar-set ul li.source-cvs span {
+  left: 4.2%;
+}
+
+.bar-set ul li.source-perforce {
+  width: 3.3%;
+}
+
+.bar-set ul li.source-perforce span {
+  left: 3.3%;
+}
+
+.bar-set ul li.source-other {
+  width: 5.8%;
+}
+
+.bar-set ul li.source-other span {
+  left: 5.8%;
+}
+
+.bar-set ul li.source-nousage {
+  width: 9.3%;
+}
+
+.bar-set ul li.source-nousage span {
+  left: 9.3%;
+}
+
+/* --- VII. Tabs V. Spaces --- */
+
+.bar-set ul li.tabsspaces-tabs {
+  width: 45.0%;
+}
+
+.bar-set ul li.tabsspaces-tabs span {
+  left: 45.0%;
+}
+
+.bar-set ul li.tabsspaces-spaces {
+  width: 33.6%;
+}
+
+.bar-set ul li.tabsspaces-spaces span {
+  left: 33.6%;
+}
+
+.bar-set ul li.tabsspaces-depends {
+  width: 17.0%;
+}
+
+.bar-set ul li.tabsspaces-depends span {
+  left: 17.0%;
+}
+
+.bar-set ul li.tabsspaces-huh {
+  width: 4.5%;
+}
+
+.bar-set ul li.tabsspaces-huh span {
+  left: 4.5%;
+}
+
+/* --- VIII. Caffeine --- */
+
+/*.bar-set ul li.tabsspaces-tabs {
+  width: 45.0%;
+}
+
+.bar-set ul li.tabsspaces-tabs span {
+  left: 45.0%;
+}*/
+
+
+/* ------- WORK ------- */
+
+/* --- I. Occupation --- */
+
+/* 2015 */
+
+.bar-set.occupation-2015 ul li.occupation-fullstack {
+  width: 32.4%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-fullstack span {
+  left: 32.4%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-student {
+  width: 13.6%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-student span {
+  left: 13.6%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-backend {
+  width: 10.1%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-backend span {
+  left: 10.1%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-mobile {
+  width: 9.1%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-mobile span {
+  left: 9.1%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-desktop {
+  width: 8.3%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-desktop span {
+  left: 8.3%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-frontend {
+  width: 6.0%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-frontend span {
+  left: 6.0%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-enterprise {
+  width: 2.9%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-enterprise span {
+  left: 2.9%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-embedded {
+  width: 2.9%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-embedded span {
+  left: 2.9%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-exec {
+  width: 1.8%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-exec span {
+  left: 1.8%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-sysadmin {
+  width: 1.6%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-sysadmin span {
+  left: 1.6%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-database {
+  width: 0.6%;
+}
+
+.bar-set.occupation-2015 ul li.occupation-database span {
+  left: 0.6%;
+}
+
+/* 2014 */
+
+.bar-set.occupation-2014 ul li.occupation-fullstack {
+  width: 26.8%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-fullstack span {
+  left: 26.8%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-student {
+  width: 13.9%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-student span {
+  left: 13.9%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-backend {
+  width: 9.7%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-backend span {
+  left: 9.7%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-mobile {
+  width: 7.9%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-mobile span {
+  left: 7.9%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-desktop {
+  width: 9.8%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-desktop span {
+  left: 9.8%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-frontend {
+  width: 5.2%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-frontend span {
+  left: 5.2%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-enterprise {
+  width: 3.6%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-enterprise span {
+  left: 3.6%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-embedded {
+  width: 2.5%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-embedded span {
+  left: 2.5%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-exec {
+  width: 1.4%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-exec span {
+  left: 1.4%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-sysadmin {
+  width: 2.1%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-sysadmin span {
+  left: 2.1%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-database {
+  width: 0.8%;
+}
+
+.bar-set.occupation-2014 ul li.occupation-database span {
+  left: 0.8%;
+}
+
+/* 2013 */
+
+.bar-set.occupation-2013 ul li.occupation-fullstack {
+  width: 29.0%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-fullstack span {
+  left: 29.0%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-student {
+  width: 8.6%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-student span {
+  left: 8.6%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-backend {
+  width: 9.3%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-backend span {
+  left: 9.3%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-mobile {
+  width: 7.7%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-mobile span {
+  left: 7.7%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-desktop {
+  width: 11.3%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-desktop span {
+  left: 11.3%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-frontend {
+  width: 5.1%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-frontend span {
+  left: 5.1%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-enterprise {
+  width: 5.3%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-enterprise span {
+  left: 5.3%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-embedded {
+  width: 2.6%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-embedded span {
+  left: 2.6%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-exec {
+  width: 2.4%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-exec span {
+  left: 2.4%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-sysadmin {
+  width: 2.7%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-sysadmin span {
+  left: 2.7%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-database {
+  width: 0.8%;
+}
+
+.bar-set.occupation-2013 ul li.occupation-database span {
+  left: 0.8%;
+}
+
+
+/* --- II. Mobile Devs --- */
+
+.bar-set ul li.mobile-android {
+  width: 44.6%;
+}
+
+.bar-set ul li.mobile-android span {
+  left: 44.6%;
+}
+
+.bar-set ul li.mobile-ios {
+  width: 33.4%;
+}
+
+.bar-set ul li.mobile-ios span {
+  left: 33.4%;
+}
+
+.bar-set ul li.mobile-general {
+  width: 19.8%;
+}
+
+.bar-set ul li.mobile-general span {
+  left: 19.8%;
+}
+
+.bar-set ul li.mobile-windows {
+  width: 2.3%;
+}
+
+.bar-set ul li.mobile-windows span {
+  left: 2.3%;
+}
+
+/* --- III. Math Devs --- */
+
+.bar-set ul li.math-statistics {
+  width: 45.6%;
+}
+
+.bar-set ul li.math-statistics span {
+  left: 45.6%;
+}
+
+.bar-set ul li.math-data {
+  width: 40.2%;
+}
+
+.bar-set ul li.math-data span {
+  left: 40.2%;
+}
+
+.bar-set ul li.math-machine {
+  width: 14.2%;
+}
+
+.bar-set ul li.math-machine span {
+  left: 14.2%;
+}
+
+/* --- V. Industry --- */
+
+/* Total */
+
+.bar-set.industry-total ul li.industry-software {
+  width: 25%;
+}
+
+.bar-set.industry-total ul li.industry-software span {
+  left: 25%;
+}
+
+.bar-set.industry-total ul li.industry-internet {
+  width: 17%;
+}
+
+.bar-set.industry-total ul li.industry-internet span {
+  left: 17%;
+}
+
+.bar-set.industry-total ul li.industry-finance {
+  width: 8%;
+}
+
+.bar-set.industry-total ul li.industry-finance span {
+  left: 8%;
+}
+
+.bar-set.industry-total ul li.industry-consulting {
+  width: 7%;
+}
+
+.bar-set.industry-total ul li.industry-consulting span {
+  left: 7%;
+}
+
+.bar-set.industry-total ul li.industry-media {
+  width: 7%;
+}
+
+.bar-set.industry-total ul li.industry-media span {
+  left: 7%;
+}
+
+.bar-set.industry-total ul li.industry-health {
+  width: 5%;
+}
+
+.bar-set.industry-total ul li.industry-health span {
+  left: 5%;
+}
+
+.bar-set.industry-total ul li.industry-education {
+  width: 5%;
+}
+
+.bar-set.industry-total ul li.industry-education span {
+  left: 5%;
+}
+
+.bar-set.industry-total ul li.industry-telecom {
+  width: 4%;
+}
+
+.bar-set.industry-total ul li.industry-telecom span {
+  left: 4%;
+}
+
+.bar-set.industry-total ul li.industry-gov {
+  width: 3%;
+}
+
+.bar-set.industry-total ul li.industry-gov span {
+  left: 3%;
+}
+.bar-set.industry-total ul li.industry-other {
+  width: 20%;
+}
+
+.bar-set.industry-total ul li.industry-other span {
+  left: 20%;
+}
+
+/* Asia */
+
+.bar-set.industry-asia ul li.industry-software {
+  width: 45%;
+}
+
+.bar-set.industry-asia ul li.industry-software span {
+  left: 45%;
+}
+
+.bar-set.industry-asia ul li.industry-internet {
+  width: 19%;
+}
+
+.bar-set.industry-asia ul li.industry-internet span {
+  left: 19%;
+}
+
+.bar-set.industry-asia ul li.industry-finance {
+  width: 6%;
+}
+
+.bar-set.industry-asia ul li.industry-finance span {
+  left: 6%;
+}
+
+.bar-set.industry-asia ul li.industry-consulting {
+  width: 4%;
+}
+
+.bar-set.industry-asia ul li.industry-consulting span {
+  left: 4%;
+}
+
+.bar-set.industry-asia ul li.industry-media {
+  width: 4%;
+}
+
+.bar-set.industry-asia ul li.industry-media span {
+  left: 4%;
+}
+
+.bar-set.industry-asia ul li.industry-health {
+  width: 3%;
+}
+
+.bar-set.industry-asia ul li.industry-health span {
+  left: 3%;
+}
+
+.bar-set.industry-asia ul li.industry-education {
+  width: 3%;
+}
+
+.bar-set.industry-asia ul li.industry-education span {
+  left: 3%;
+}
+
+.bar-set.industry-asia ul li.industry-telecom {
+  width: 3%;
+}
+
+.bar-set.industry-asia ul li.industry-telecom span {
+  left: 3%;
+}
+
+.bar-set.industry-asia ul li.industry-gov {
+  width: 1%;
+}
+
+.bar-set.industry-asia ul li.industry-gov span {
+  left: 1%;
+}
+
+.bar-set.industry-asia ul li.industry-other {
+  width: 13%;
+}
+
+.bar-set.industry-asia ul li.industry-other span {
+  left: 13%;
+}
+
+/* Eastern Europe */
+
+.bar-set.industry-europe ul li.industry-software {
+  width: 29%;
+}
+
+.bar-set.industry-europe ul li.industry-software span {
+  left: 29%;
+}
+
+.bar-set.industry-europe ul li.industry-internet {
+  width: 21%;
+}
+
+.bar-set.industry-europe ul li.industry-internet span {
+  left: 21%;
+}
+
+.bar-set.industry-europe ul li.industry-finance {
+  width: 9%;
+}
+
+.bar-set.industry-europe ul li.industry-finance span {
+  left: 9%;
+}
+
+.bar-set.industry-europe ul li.industry-consulting {
+  width: 3%;
+}
+
+.bar-set.industry-europe ul li.industry-consulting span {
+  left: 3%;
+}
+
+.bar-set.industry-europe ul li.industry-media {
+  width: 9%;
+}
+
+.bar-set.industry-europe ul li.industry-media span {
+  left: 9%;
+}
+
+.bar-set.industry-europe ul li.industry-health {
+  width: 3%;
+}
+
+.bar-set.industry-europe ul li.industry-health span {
+  left: 3%;
+}
+
+.bar-set.industry-europe ul li.industry-education {
+  width: 2%;
+}
+
+.bar-set.industry-europe ul li.industry-education span {
+  left: 2%;
+}
+
+.bar-set.industry-europe ul li.industry-telecom {
+  width: 5%;
+}
+
+.bar-set.industry-europe ul li.industry-telecom span {
+  left: 5%;
+}
+
+.bar-set.industry-europe ul li.industry-gov {
+  width: 2%;
+}
+
+.bar-set.industry-europe ul li.industry-gov span {
+  left: 2%;
+}
+
+.bar-set.industry-europe ul li.industry-other {
+  width: 16%;
+}
+
+.bar-set.industry-europe ul li.industry-other span {
+  left: 16%;
+}
+
+/* US */
+
+.bar-set.industry-us ul li.industry-software {
+  width: 18%;
+}
+
+.bar-set.industry-us ul li.industry-software span {
+  left: 18%;
+}
+
+.bar-set.industry-us ul li.industry-internet {
+  width: 14%;
+}
+
+.bar-set.industry-us ul li.industry-internet span {
+  left: 14%;
+}
+
+.bar-set.industry-us ul li.industry-finance {
+  width: 8%;
+}
+
+.bar-set.industry-us ul li.industry-finance span {
+  left: 8%;
+}
+
+.bar-set.industry-us ul li.industry-consulting {
+  width: 7%;
+}
+
+.bar-set.industry-us ul li.industry-consulting span {
+  left: 7%;
+}
+
+.bar-set.industry-us ul li.industry-media {
+  width: 7%;
+}
+
+.bar-set.industry-us ul li.industry-media span {
+  left: 7%;
+}
+
+.bar-set.industry-us ul li.industry-health {
+  width: 7%;
+}
+
+.bar-set.industry-us ul li.industry-health span {
+  left: 7%;
+}
+
+.bar-set.industry-us ul li.industry-education {
+  width: 5%;
+}
+
+.bar-set.industry-us ul li.industry-education span {
+  left: 5%;
+}
+
+.bar-set.industry-us ul li.industry-telecom {
+  width: 2%;
+}
+
+.bar-set.industry-us ul li.industry-telecom span {
+  left: 2%;
+}
+
+.bar-set.industry-us ul li.industry-gov {
+  width: 4%;
+}
+
+.bar-set.industry-us ul li.industry-gov span {
+  left: 4%;
+}
+
+.bar-set.industry-us ul li.industry-other {
+  width: 27%;
+}
+
+.bar-set.industry-us ul li.industry-other span {
+  left: 27%;
+}
+
+/* --- VII. Compensation by Language --- */
+
+/* US */
+
+.bar-set.complang-us ul li.complang-objectivec {
+  width: 98.828%;
+}
+
+.bar-set.complang-us ul li.complang-objectivec span {
+  left: 98.828%;
+}
+
+.bar-set.complang-us ul li.complang-nodejs {
+  width: 96.539%;
+}
+
+.bar-set.complang-us ul li.complang-nodejs span {
+  left: 96.539%;
+}
+
+.bar-set.complang-us ul li.complang-csharp {
+  width: 94.280%;
+}
+
+.bar-set.complang-us ul li.complang-csharp span {
+  left: 94.280%;
+}
+
+.bar-set.complang-us ul li.complang-cplusplus {
+  width: 91.739%;
+}
+
+.bar-set.complang-us ul li.complang-cplusplus span {
+  left: 91.739%;
+}
+
+.bar-set.complang-us ul li.complang-sql {
+  width: 91.431%;
+}
+
+.bar-set.complang-us ul li.complang-sql span {
+  left: 91.431%;
+}
+
+.bar-set.complang-us ul li.complang-c {
+  width: 91.264%;
+}
+
+.bar-set.complang-us ul li.complang-c span {
+  left: 91.264%;
+}
+
+.bar-set.complang-us ul li.complang-ruby {
+  width: 90.536%;
+}
+
+.bar-set.complang-us ul li.complang-ruby span {
+  left: 90.536%;
+}
+
+.bar-set.complang-us ul li.complang-javascript {
+  width: 90.259%;
+}
+
+.bar-set.complang-us ul li.complang-javascript span {
+  left: 90.259%;
+}
+
+.bar-set.complang-us ul li.complang-java {
+  width: 89.054%;
+}
+
+.bar-set.complang-us ul li.complang-java span {
+  left: 89.054%;
+}
+
+.bar-set.complang-us ul li.complang-python {
+  width: 88.966%;
+}
+
+.bar-set.complang-us ul li.complang-python span {
+  left: 88.9664%;
+}
+
+.bar-set.complang-us ul li.complang-php {
+  width: 77.322%;
+}
+
+.bar-set.complang-us ul li.complang-php span {
+  left: 77.322%;
+}
+
+/* Western Europe */
+
+.bar-set.complang-weurope ul li.complang-objectivec {
+  width: 58.688%;
+}
+
+.bar-set.complang-weurope ul li.complang-objectivec span {
+  left: 58.688%;
+}
+
+.bar-set.complang-weurope ul li.complang-nodejs {
+  width: 59.227%;
+}
+
+.bar-set.complang-weurope ul li.complang-nodejs span {
+  left: 59.227%;
+}
+
+.bar-set.complang-weurope ul li.complang-csharp {
+  width: 59.978%;
+}
+
+.bar-set.complang-weurope ul li.complang-csharp span {
+  left: 59.978%;
+}
+
+.bar-set.complang-weurope ul li.complang-cplusplus {
+  width: 56.680%;
+}
+
+.bar-set.complang-weurope ul li.complang-cplusplus span {
+  left: 56.680%;
+}
+
+.bar-set.complang-weurope ul li.complang-sql {
+  width: 55.740%;
+}
+
+.bar-set.complang-weurope ul li.complang-sql span {
+  left: 55.740%;
+}
+
+.bar-set.complang-weurope ul li.complang-c {
+  width: 55.259%;
+}
+
+.bar-set.complang-weurope ul li.complang-c span {
+  left: 55.259%;
+}
+
+.bar-set.complang-weurope ul li.complang-ruby {
+  width: 60.000%;
+}
+
+.bar-set.complang-weurope ul li.complang-ruby span {
+  left: 60.000%;
+}
+
+.bar-set.complang-weurope ul li.complang-javascript {
+  width: 55.425%;
+}
+
+.bar-set.complang-weurope ul li.complang-javascript span {
+  left: 55.425%;
+}
+
+.bar-set.complang-weurope ul li.complang-java {
+  width: 53.404%;
+}
+
+.bar-set.complang-weurope ul li.complang-java span {
+  left: 53.404%;
+}
+
+.bar-set.complang-weurope ul li.complang-python {
+  width: 56.192%;
+}
+
+.bar-set.complang-weurope ul li.complang-python span {
+  left: 56.192%;
+}
+
+.bar-set.complang-weurope ul li.complang-php {
+  width: 46.060%;
+}
+
+.bar-set.complang-weurope ul li.complang-php span {
+  left: 46.060%;
+}
+
+/* Eastern Europe */
+
+.bar-set.complang-eeurope ul li.complang-objectivec {
+  width: 24.844%;
+}
+
+.bar-set.complang-eeurope ul li.complang-objectivec span {
+  left: 24.844%;
+}
+
+.bar-set.complang-eeurope ul li.complang-nodejs {
+  width: 28.543%;
+}
+
+.bar-set.complang-eeurope ul li.complang-nodejs span {
+  left: 28.543%;
+}
+
+.bar-set.complang-eeurope ul li.complang-csharp {
+  width: 26.025%;
+}
+
+.bar-set.complang-eeurope ul li.complang-csharp span {
+  left: 26.025%;
+}
+
+.bar-set.complang-eeurope ul li.complang-cplusplus {
+  width: 22.905%;
+}
+
+.bar-set.complang-eeurope ul li.complang-cplusplus span {
+  left: 22.905%;
+}
+
+.bar-set.complang-eeurope ul li.complang-sql {
+  width: 24.940%;
+}
+
+.bar-set.complang-eeurope ul li.complang-sql span {
+  left: 24.940%;
+}
+
+.bar-set.complang-eeurope ul li.complang-c {
+  width: 24.423%;
+}
+
+.bar-set.complang-eeurope ul li.complang-c span {
+  left: 24.423%;
+}
+
+.bar-set.complang-eeurope ul li.complang-ruby {
+  width: 24.714%;
+}
+
+.bar-set.complang-eeurope ul li.complang-ruby span {
+  left: 24.714%;
+}
+
+.bar-set.complang-eeurope ul li.complang-javascript {
+  width: 24.968%;
+}
+
+.bar-set.complang-eeurope ul li.complang-javascript span {
+  left: 24.968%;
+}
+
+.bar-set.complang-eeurope ul li.complang-java {
+  width: 25.559%;
+}
+
+.bar-set.complang-eeurope ul li.complang-java span {
+  left: 25.559%;
+}
+
+.bar-set.complang-eeurope ul li.complang-python {
+  width: 25.640%;
+}
+
+.bar-set.complang-eeurope ul li.complang-python span {
+  left: 25.640%;
+}
+
+.bar-set.complang-eeurope ul li.complang-php {
+  width: 22.563%;
+}
+
+.bar-set.complang-eeurope ul li.complang-php span {
+  left: 22.563%;
+}

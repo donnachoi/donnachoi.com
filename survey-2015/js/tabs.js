@@ -32,3 +32,8 @@ $('#workSatisfactionDev a').click(function (e) {
   e.preventDefault();
   $(this).tab('show');
 })
+
+$('#commRep a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})

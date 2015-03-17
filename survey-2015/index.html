@@ -9,9 +9,10 @@
 
 		<link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
-		<link href="css/font-face.css" rel="stylesheet" media="screen">
-		<link href="css/charts.css" rel="stylesheet" media="screen">     
-		<link href="css/custom.css" rel="stylesheet" media="screen">
+		<link href="css/custom/font-face.css" rel="stylesheet" media="screen">
+		<link href="css/custom/globals.css" rel="stylesheet" media="screen">
+		<link href="css/custom/components.css" rel="stylesheet" media="screen">		
+		<link href="css/custom/charts.css" rel="stylesheet" media="screen">  
 		
 	</head>
 
@@ -51,7 +52,7 @@
 
 				<div class="col-md-3">
 					<div class="side-nav">
-						<ul>
+						<ul class="main-nav">
 							<li>
 								<a href="#overview">
 									Overview
@@ -59,36 +60,36 @@
 							</li>
 
 							<li>
-								<a href="#profile" class="active">
+								<a href="#profile">
 									Developer Profile
 								</a>
 								<ul class="sub-nav">
-									 <li>
-										<a href="#profile-geography">I. Geography</a>
+									 <li class="active">
+										<a href="#profile-geo">I. Geography</a>
 									 </li>
 									 <li>
-									 	<a href="#profile-sessions">II. Monthly Sessions</a>
+									 	<a href="#profile-percapita">II. Devs per Capita</a>
 									 </li>
 									 <li>
 									 	<a href="#profile-age">III. Age</a>
 									 </li>
 									 <li>
-									 	<a href="#profile-age-country">IV. Age by Country</a>
+									 	<a href="#profile-agebycountry">IV. Age by Country</a>
 									 </li>
 									 <li>
 									 	<a href="#profile-gender">V. Gender</a>
 									 </li>
 									 <li>
-									 	<a href="#profile-women-experience">VI. Women by Experience</a>
+									 	<a href="#profile-women">VI. Women in Technical Fields</a>
 									 </li>
 									 <li>
-									 	<a href="#profile-training">VII. Programming Training</a>
+									 	<a href="#profile-education">VII. Education</a>
 									 </li>
 									 <li>
-									 	<a href="#profile-experience">VIII. Programming Experience</a>
+									 	<a href="#profile-experience">VIII. Experience</a>
 									 </li>
 									 <li>
-									 	<a href="#profile-side-projects">IX. Hours Spent on Side Projects or Open Source</a>
+									 	<a href="#profile-sideprojects">IX. Side Projects and Open Source</a>
 									 </li>
 								</ul>
 							</li>
@@ -104,9 +105,95 @@
 									 <li>
 										<a href="#tech-super">II. Most Loved, Hated, and Wanted Tools</a>
 									 </li>
+									 <li>
+										<a href="#tech-os">III. Operating System</a>
+									 </li>
+									 <li>
+										<a href="#tech-editor">IV. Text Editor</a>
+									 </li>
+									 <li>
+										<a href="#tech-ide">V. IDE Theme</a>
+									 </li>
+									 <li>
+										<a href="#tech-sourcecontrol">VI. Source Control</a>
+									 </li>
+									 <li>
+										<a href="#tech-tabsspaces">VII. Tabs vs. Spaces</a>
+									 </li>
+									 <li>
+										<a href="#tech-caffeine">VII. Caffeine</a>
+									 </li>
 								</ul>
 							</li>
 
+							<li>
+								<a href="#work">
+									Work
+								</a>
+								<ul class="sub-nav">
+									 <li>
+										<a href="#work-occupation">I. Occupation</a>
+									 </li>
+									 <li>
+										<a href="#work-mobile">II. Mobile Developers</a>
+									 </li>
+									 <li>
+										<a href="#work-math">III. Math Developers</a>
+									 </li>
+									 <li>
+										<a href="#work-other-dev">IV. Other Dev Types</a>
+									 </li>
+									 <li>
+										<a href="#work-occupation">V. Industry</a>
+									 </li>
+									 <li>
+										<a href="#work-compensation-geo">VI. Compensation by Geography</a>
+									 </li>
+									 <li>
+										<a href="#work-complang">VII. Compensation by Language</a>
+									 </li>
+									 <li>
+										<a href="#work-comp-so">VIII. Compensation by Stack Overflow Rep</a>
+									 </li>
+									 <li>
+										<a href="#work-status">IX. Employment Status</a>
+									 </li>
+									 <li>
+										<a href="#work-satisfaction">X. Job Satisfaction</a>
+									 </li>
+									 <li>
+										<a href="#work-satisfaction-by-dev">XI. Job Satisfaction by Dev Type</a>
+									 <li>
+										<a href="#work-remote">XII. Remote Work</a>
+									 </li>
+									 <li>
+										<a href="#work-remote-by-job">XII. XIII. Remote Work in Job Opportunities</a>
+									 </li>
+								</ul>
+							</li>
+
+							<li>
+								<a href="#community">
+									Community
+								</a>
+								<ul class="sub-nav">
+									 <li>
+										<a href="#community-rep">I. Reputation</a>
+									 </li>
+									 <li>
+										<a href="#community-frequency">II. Visit Frequency</a>
+									 </li>
+									 <li>
+										<a href="#community-satisfaction">III. Visit Satisfaction</a>
+									 </li>
+									 <li>
+										<a href="#community-motivation">IV. Motivation for Using Stack Overflow</a>
+									 </li>
+									 <li>
+										<a href="#community-answer">V. Motivation for Answering Questions</a>
+									 </li>
+								</ul>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -201,7 +288,7 @@
 								</h3>
 							</div>
 
-							<div class="placeholder">Map</div>
+							<div class="placeholder">Highcharts Map</div>
 
 
 							<!-- II. Devs Per Capita -->
@@ -222,7 +309,86 @@
 								</h3>
 							</div>
 
-							<div class="placeholder">Table</div>
+					  	<div class="bar-set">
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">60+</div>
+					  			<ul>
+						  			<li class="age-60">
+						  				<span>0.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">51-60</div>
+					  			<ul>
+						  			<li class="age-50">
+						  				<span>1.9%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">40-50</div>
+					  			<ul>
+						  			<li class="age-40">
+						  				<span>7.6%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">35-39</div>
+					  			<ul>
+						  			<li class="age-35">
+						  				<span>9.1%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">30-34</div>
+					  			<ul>
+						  			<li class="age-30">
+						  				<span>17.8%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">25-29</div>
+					  			<ul>
+						  			<li class="age-25">
+						  				<span>28.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">20-24</div>
+					  			<ul>
+						  			<li class="age-20">
+						  				<span>24.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">< 20</div>
+					  			<ul>
+						  			<li class="age-lessthan20">
+						  				<span>8.8%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+					  	</div>
+							<sub class="_line-top _muted ">
+								25,831 responses
+							</sub>
+
+
 
 
 							<!-- IV. Age by Country -->
@@ -234,6 +400,7 @@
 							</div>
 
 							<div class="placeholder">Table</div>
+
 
 							<!-- V. Gender -->
 
@@ -283,7 +450,7 @@
 
 					  	</div>
 							<sub class="_line-top _muted ">
-								Respondents: 24,744
+								25,744 responses
 							</sub>
 
 							<!-- VI. Women in Technical Fields -->
@@ -439,7 +606,7 @@
 
 					  	</div>
 							<sub class="_line-top _muted">
-								Respondents: 21,314
+								21,314 responses
 							</sub>
 
 							<!-- VIII. Experience -->
@@ -499,13 +666,13 @@
 
 					  	</div>
 							<sub class="_line-top _muted">
-								Respondents: 24,827
+								24,827 responses
 							</sub>
 
 
 							<!-- IX. Side Projects and Open Source -->
 
-							<div class="subsection-head" id="profile-sideprojects">
+							<div class="subsection-head" "id=profile-sideprojects">
 								<h3 class="_muted _inline-block">
 									IX. Side Projects and Open Source
 								</h3>
@@ -570,7 +737,7 @@
 
 					  	</div>
 							<sub class="_line-top _muted">
-								Respondents: 16,522
+								16,522 responses
 							</sub>
 
 						</div>
@@ -734,7 +901,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted">Total respondents: 21,982</sub>
+									<sub class="_line-top _muted">21,982 responses</sub>
 
 							  </div>
 
@@ -851,7 +1018,7 @@
 							  		</div>
 									</div>
 
-									<sub class="_line-top _muted invisible">Total respondents: 21,982</sub>
+									<sub class="_line-top _muted invisible">21,982 responses</sub>
 
 							  </div>
 
@@ -968,7 +1135,7 @@
 							  		</div>
 									</div>
 
-									<sub class="_line-top _muted invisible">Total respondents: 21,982</sub>
+									<sub class="_line-top _muted invisible">21,982 responses</sub>
 
 								</div>
 							</div>
@@ -1399,7 +1566,7 @@
 							  	</div>
 
 									<sub class="_line-top _muted">
-										Respondents: 22,771
+										22,771 responses
 									</sub>
 
 							  </div>
@@ -1473,7 +1640,7 @@
 							  	</div>
 
 									<sub class="_line-top _muted invisible">
-										Respondents: 22,771
+										22,771 responses
 									</sub>
 									
 							  </div>							
@@ -1548,7 +1715,7 @@
 							  	</div>
 
 									<sub class="_line-top _muted invisible">
-										Respondents: 22,771
+										22,771 responses
 									</sub>
 									
 							  </div>							
@@ -1654,7 +1821,7 @@
 					  	</div>
 
 							<sub class="_line-top _muted ">
-								Respondents: 16,778 
+								16,778 responses
 							</sub>
 
 							<!-- V. IDE Theme -->
@@ -1779,7 +1946,7 @@
 					  		</div>
 					  	</div>
 							<sub class="_line-top _muted ">
-								Respondents: 16,694
+								16,694 responses
 							</sub>
 
 							<!-- VII. Tabs V. Spaces -->
@@ -1831,7 +1998,7 @@
 					  	</div>
 
 							<sub class="_line-top _muted ">
-								Respondents: 24,688
+								24,688 responses
 							</sub>
 
 							<!-- VIII. Caffeine -->
@@ -1849,7 +2016,7 @@
 					  	</div>
 
 							<sub class="_line-top _muted ">
-								Respondents: 16,516
+								16,516 responses
 							</sub>
 						
 						<!-- End Section Content  -->
@@ -2005,7 +2172,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted">Total respondents: 22,148</sub>
+									<sub class="_line-top _muted">22,148 responses</sub>
 
 								</div>
 
@@ -2116,7 +2283,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted invisible">Total respondents: 22,148</sub>
+									<sub class="_line-top _muted invisible">22,148 responses</sub>
 
 								</div>
 
@@ -2225,7 +2392,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted invisible">Total respondents: 22,148</sub>
+									<sub class="_line-top _muted invisible">22,148 responses</sub>
 
 								</div>
 
@@ -2287,7 +2454,7 @@
 					  	</div>
 
 							<sub class="_line-top _muted ">
-								Respondents: 1,900
+								1,900 responses
 							</sub>
 
 							<!-- III. Math Developers -->
@@ -2330,7 +2497,7 @@
 					  	</div>
 
 							<sub class="_line-top _muted ">
-								Respondents: 1,018
+								1,018 responses
 							</sub>
 
 							<!-- IV. Other Dev Types -->
@@ -2460,7 +2627,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted">Total respondents: 16,160</sub>
+									<sub class="_line-top _muted">16,160 responses</sub>
 
 								</div>
 
@@ -2561,7 +2728,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted">Total respondents: 16,160</sub>
+									<sub class="_line-top _muted">16,160 responses</sub>
 
 								</div>
 
@@ -2662,7 +2829,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted">Total respondents: 16,160</sub>
+									<sub class="_line-top _muted">16,160 responses</sub>
 
 								</div>
 
@@ -2764,7 +2931,7 @@
 
 									</div>
 
-									<sub class="_line-top _muted">Total respondents: 16,160</sub>
+									<sub class="_line-top _muted">16,160 responses</sub>
 
 								</div>
 
@@ -3659,7 +3826,637 @@
 						</div>
 					</section>
 
+					<!-- Section: Community -->
 
+					<section id="community">
+						<div class="section-intro _background-light">
+							<div class="color-bar">
+								<span class="_color-bar-orange"></span>
+								<span class="_color-bar-amber"></span>
+								<span class="_color-bar-yellow"></span>
+							</div>
+							<div class="section-intro-content">
+								<h2 class="_orange">
+									Community
+								</h2>
+								<p class="_lead">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum vestibulum mi, in porttitor est porta nec. Vivamus volutpat ultrices sapien, sit amet sodales sem efficitur et. Cras volutpat, lectus ac luctus lacinia, nunc lacus interdum arcu, non congue lacus arcu ac justo. In hac habitasse platea dictumst.
+								</p>
+							</div>
+						</div>
+
+						<div class="section-content">
+
+							<!-- I. Reputation -->
+
+
+							<div class="subsection-head" id="community-rep">
+								<h3 class="_muted _inline-block">
+									I. Reputation
+								</h3>
+							</div>
+
+							<!-- Element: Tabs -->
+
+							<ul class="nav nav-tabs" id="commRep">
+							  <li class="active"><a href="#commRep-active">Active Users</a></li>
+							  <li><a href="#commRep-respondents">Respondents</a></li>
+							</ul>
+
+							<div class="tab-content">
+
+							  <div class="tab-pane active" id="commRep-active">
+
+							  	<div class="bar-set rep-active">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">10,000+</div>
+							  			<ul>
+								  			<li class="rep-10k">
+								  				<span>0.6%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">5,000 to 9,999</div>
+							  			<ul>
+								  			<li class="rep-5k">
+								  				<span>0.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">3,000 to 4,999</div>
+							  			<ul>
+								  			<li class="rep-3k">
+								  				<span>0.9%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">2,000 to 2,999</div>
+							  			<ul>
+								  			<li class="rep-2k">
+								  				<span>1.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">1,000 to 1,999</div>
+							  			<ul>
+								  			<li class="rep-1k">
+								  				<span>2.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">500 to 999</div>
+							  			<ul>
+								  			<li class="rep-500">
+								  				<span>4.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">200 to 499</div>
+							  			<ul>
+								  			<li class="rep-200">
+								  				<span>5.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">100 to 199</div>
+							  			<ul>
+								  			<li class="rep-100">
+								  				<span>6.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">50 to 99</div>
+							  			<ul>
+								  			<li class="rep-50">
+								  				<span>6.8%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">2 to 49</div>
+							  			<ul>
+								  			<li class="rep-2">
+								  				<span>27.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">1</div>
+							  			<ul>
+								  			<li class="rep-1">
+								  				<span>44.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">I don't have an account</div>
+							  			<ul>
+								  			<li class="rep-none">
+								  				<span>N/A</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Not sure</div>
+							  			<ul>
+								  			<li class="rep-notsure">
+								  				<span>N/A</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+							  	</div>
+
+									<sub class="_line-top _muted ">
+										Only about 5% of Stack Overflow users are ever signed in.
+									</sub>
+
+							  </div>
+
+							  <div class="tab-pane" id="commRep-respondents">
+
+							  	<div class="bar-set rep-respondents">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">10,000+</div>
+							  			<ul>
+								  			<li class="rep-10k">
+								  				<span>5.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">5,000 to 9,999</div>
+							  			<ul>
+								  			<li class="rep-5k">
+								  				<span>3.4%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">3,000 to 4,999</div>
+							  			<ul>
+								  			<li class="rep-3k">
+								  				<span>3.6%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">2,000 to 2,999</div>
+							  			<ul>
+								  			<li class="rep-2k">
+								  				<span>3.3%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">1,000 to 1,999</div>
+							  			<ul>
+								  			<li class="rep-1k">
+								  				<span>6.3%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">500 to 999</div>
+							  			<ul>
+								  			<li class="rep-500">
+								  				<span>7.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">200 to 499</div>
+							  			<ul>
+								  			<li class="rep-200">
+								  				<span>6.9%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">100 to 199</div>
+							  			<ul>
+								  			<li class="rep-100">
+								  				<span>7.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">50 to 99</div>
+							  			<ul>
+								  			<li class="rep-50">
+								  				<span>5.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">2 to 49</div>
+							  			<ul>
+								  			<li class="rep-2">
+								  				<span>13.8%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">1</div>
+							  			<ul>
+								  			<li class="rep-1">
+								  				<span>8.9%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">I don't have an account</div>
+							  			<ul>
+								  			<li class="rep-none">
+								  				<span>21.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Not sure</div>
+							  			<ul>
+								  			<li class="rep-notsure">
+								  				<span>7.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+							  	</div>
+
+									<sub class="_line-top _muted invisible">
+										Only about 5% of Stack Overflow users are ever signed in.
+									</sub>
+
+							  </div>
+
+							</div>
+							<script>
+							  $(function () {
+							    $('#commRep a:last').tab('show');
+							  })
+							</script>
+
+							<!-- II. Visit Frequency-->
+
+							<div class="subsection-head" id="community-frequency">
+								<h3 class="_muted _inline-block">
+									II. Visit Frequency
+								</h3>
+							</div>
+
+					  	<div class="bar-set">
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Multiple times a day</div>
+					  			<ul>
+						  			<li class="freq-multiple">
+						  				<span>65.4%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Once a day</div>
+					  			<ul>
+						  			<li class="freq-daily">
+						  				<span>20.4%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Once a week</div>
+					  			<ul>
+						  			<li class="freq-weekly">
+						  				<span>9.9%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Once a month</div>
+					  			<ul>
+						  			<li class="freq-monthly">
+						  				<span>1.9%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Very rarely</div>
+					  			<ul>
+						  			<li class="freq-rarely">
+						  				<span>1.9%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">I have never been on Stack Overflow. I just love taking surveys.</div>
+					  			<ul>
+						  			<li class="freq-never">
+						  				<span>0.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+					  	</div>
+
+							<sub class="_line-top _muted ">
+								16,519 responses
+							</sub>
+
+							<!-- III. Visit Satisfaction-->
+
+							<div class="subsection-head" id="community-satisfaction">
+								<h3 class="_muted _inline-block">
+									III. Visit Satisfaction
+								</h3>
+							</div>
+
+					  	<div class="bar-set">
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Always</div>
+					  			<ul>
+						  			<li class="satis-always">
+						  				<span>10.2%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Usually</div>
+					  			<ul>
+						  			<li class="satis-usually">
+						  				<span>76%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Sometimes</div>
+					  			<ul>
+						  			<li class="satis-sometimes">
+						  				<span>13.1%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Rarely</div>
+					  			<ul>
+						  			<li class="satis-rarely">
+						  				<span>0.6%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Never</div>
+					  			<ul>
+						  			<li class="satis-never">
+						  				<span>0.2%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+					  	</div>
+
+							<sub class="_line-top _muted ">
+								16,399 responses
+							</sub>
+
+							<!-- IV. Motivation -->
+
+							<div class="subsection-head" id="community-motivation">
+								<h3 class="_muted _inline-block">
+									IV. Motivation for Using Stack Overflow
+								</h3>
+							</div>
+
+					  	<div class="bar-set">
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">To get help for my job</div>
+					  			<ul>
+						  			<li class="motive-gethelp">
+						  				<span>72.1%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Because I love to learn</div>
+					  			<ul>
+						  			<li class="motive-learn">
+						  				<span>65.6%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">To give help to others</div>
+					  			<ul>
+						  			<li class="motive-givehelp">
+						  				<span>55.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">To receive help on my personal projects</div>
+					  			<ul>
+						  			<li class="motive-personal">
+						  				<span>40.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Because I can't do my job without it</div>
+					  			<ul>
+						  			<li class="motive-forjob">
+						  				<span>20.5%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">To communicate with others like me</div>
+					  			<ul>
+						  			<li class="motive-communicate">
+						  				<span>17.1%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">To demonstrate that I'm good at what I do</div>
+					  			<ul>
+						  			<li class="motive-show">
+						  				<span>16.4%</span>
+						  			</li>
+					  			</ul>
+					  		</div>				  		
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">To maintain an online presence</div>
+					  			<ul>
+						  			<li class="motive-presence">
+						  				<span>14.3%</span>
+						  			</li>
+					  			</ul>
+					  		</div>			
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Other</div>
+					  			<ul>
+						  			<li class="motive-other">
+						  				<span>2.8%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">I don't really use Stack Overflow. I just take surveys.</div>
+					  			<ul>
+						  			<li class="motive-none">
+						  				<span>1.3%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+					  	</div>
+
+							<sub class="_line-top _muted ">
+								16,397 responses
+							</sub>
+
+
+							<!-- V. Motivation for Answering Questions -->
+
+							<div class="subsection-head" id="community-answer">
+								<h3 class="_muted _inline-block">
+									V. Motivation for Answering Questions
+								</h3>
+							</div>
+
+					  	<div class="bar-set">
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">It feels good to help a programmer in need</div>
+					  			<ul>
+						  			<li class="answer-help">
+						  				<span>64.0%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">My answer will help lots of people who have the same problem in the future</div>
+					  			<ul>
+						  			<li class="answer-future">
+						  				<span>54.2%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">I don't answer much (or at all), but I want to answer more</div>
+					  			<ul>
+						  			<li class="answer-answermore">
+						  				<span>35.7%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">I feel a sense of responsibility to the developer community</div>
+					  			<ul>
+						  			<li class="answer-responsibility">
+						  				<span>32.4%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">It feels good to demonstrate my expertise</div>
+					  			<ul>
+						  			<li class="answer-feelsgood">
+						  				<span>30.2%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">Demonstrating my expertise will benefit me</div>
+					  			<ul>
+						  			<li class="answer-expertise">
+						  				<span>20.8%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">I have no idea why I answer but I do it anyway</div>
+					  			<ul>
+						  			<li class="answer-noidea">
+						  				<span>6.4%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+				  			<div class="bar-row">
+					  			<div class="bar-label">I don't answer much (or at all), and I don't want to</div>
+					  			<ul>
+						  			<li class="answer-nodesire">
+						  				<span>4.4%</span>
+						  			</li>
+					  			</ul>
+					  		</div>	
+
+					  	</div>
+
+							<sub class="_line-top _muted ">
+								15,980 responses
+							</sub>
+
+
+						</div>
+					</section>
 
 				<!-- End content -->
 

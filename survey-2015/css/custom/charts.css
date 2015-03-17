@@ -1,5 +1,75 @@
 /* ------- PROFILE ------- */
 
+/* --- III. Age --- */
+
+.bar-set ul li.age-60 {
+  width: 0.5%;
+}
+
+.bar-set ul li.age-60 span {
+  left: 0.5%;
+}
+
+.bar-set ul li.age-50 {
+  width: 1.9%;
+}
+
+.bar-set ul li.age-50 span {
+  left: 1.9%;
+}
+
+.bar-set ul li.age-40 {
+  width: 7.6%;
+}
+
+.bar-set ul li.age-40 span {
+  left: 7.6%;
+}
+
+.bar-set ul li.age-35 {
+  width: 9.1%;
+}
+
+.bar-set ul li.age-35 span {
+  left: 9.1%;
+}
+
+.bar-set ul li.age-30{
+  width: 17.8%;
+}
+
+.bar-set ul li.age-30 span {
+  left: 17.8%;
+}
+
+.bar-set ul li.age-25{
+  width: 28.5%;
+}
+
+.bar-set ul li.age-25 span {
+  left: 28.5%;
+}
+
+.bar-set ul li.age-20 {
+  width: 24.5%;
+}
+
+.bar-set ul li.age-20 span {
+  left: 24.5%;
+}
+
+.bar-set ul li.age-lessthan20 {
+  width: 8.8%;
+}
+
+.bar-set ul li.age-lessthan20 span {
+  left: 8.8%;
+}
+
+
+
+
+
 /* --- V. Gender --- */
 
 .bar-set ul li.gender-male {
@@ -2475,3 +2545,462 @@
 .bar-set ul li.remotejob-notimpt span {
   left: 10.8%;
 }
+
+/* ------- COMMUNITY ------- */
+
+/* --- I. Reputatiom --- */
+
+/* Active */
+
+.bar-set.rep-active ul li.rep-10k {
+  width: 0.6%;
+}
+
+.bar-set.rep-active ul li.rep-10k span {
+  left: 0.6%;
+}
+
+.bar-set.rep-active ul li.rep-5k {
+  width: 0.7%;
+}
+
+.bar-set.rep-active ul li.rep-5k span {
+  left: 0.7%;
+}
+
+.bar-set.rep-active ul li.rep-3k {
+  width: 0.9%;
+}
+
+.bar-set.rep-active ul li.rep-3k span {
+  left: 0.9%;
+}
+
+.bar-set.rep-active ul li.rep-2k {
+  width: 0.9%;
+}
+
+.bar-set.rep-active ul li.rep-2k span {
+  left: 0.9%;
+}
+
+.bar-set.rep-active ul li.rep-1k {
+  width: 2.7%;
+}
+
+.bar-set.rep-active ul li.rep-1k span {
+  left: 2.7%;
+}
+
+.bar-set.rep-active ul li.rep-500 {
+  width: 4.0%;
+}
+
+.bar-set.rep-active ul li.rep-500 span {
+  left: 4.0%;
+}
+
+.bar-set.rep-active ul li.rep-200 {
+  width: 5.5%;
+}
+
+.bar-set.rep-active ul li.rep-200 span {
+  left: 5.5%;
+}
+
+.bar-set.rep-active ul li.rep-100 {
+  width: 6.7%;
+}
+
+.bar-set.rep-active ul li.rep-100 span {
+  left: 6.7%;
+}
+
+.bar-set.rep-active ul li.rep-50 {
+  width: 6.8%;
+}
+
+.bar-set.rep-active ul li.rep-50 span {
+  left: 6.8%;
+}
+
+.bar-set.rep-active ul li.rep-2 {
+  width: 27.0%;
+}
+
+.bar-set.rep-active ul li.rep-2 span {
+  left: 27.0%;
+}
+
+.bar-set.rep-active ul li.rep-1 {
+  width: 44.0%;
+}
+
+.bar-set.rep-active ul li.rep-1 span {
+  left: 44.0%;
+}
+
+.bar-set.rep-active ul li.rep-none {
+  width: 0%;
+}
+
+.bar-set.rep-active ul li.rep-none span {
+  left: 0%;
+}
+
+.bar-set.rep-active ul li.rep-notsure {
+  width: 0%;
+}
+
+.bar-set.rep-active ul li.rep-notsure span {
+  left: 0%;
+}
+
+/* Respondents */
+
+.bar-set.rep-respondents ul li.rep-10k {
+  width: 5.1%;
+}
+
+.bar-set.rep-respondents ul li.rep-10k span {
+  left: 5.1%;
+}
+
+.bar-set.rep-respondents ul li.rep-5k {
+  width: 3.4%;
+}
+
+.bar-set.rep-respondents ul li.rep-5k span {
+  left: 3.4%;
+}
+
+.bar-set.rep-respondents ul li.rep-3k {
+  width: 3.6%;
+}
+
+.bar-set.rep-respondents ul li.rep-3k span {
+  left: 3.6%;
+}
+
+.bar-set.rep-respondents ul li.rep-2k {
+  width: 3.3%;
+}
+
+.bar-set.rep-respondents ul li.rep-2k span {
+  left: 3.3%;
+}
+
+.bar-set.rep-respondents ul li.rep-1k {
+  width: 6.3%;
+}
+
+.bar-set.rep-respondents ul li.rep-1k span {
+  left: 6.3%;
+}
+
+.bar-set.rep-respondents ul li.rep-500 {
+  width: 7.1%;
+}
+
+.bar-set.rep-respondents ul li.rep-500 span {
+  left: 7.1%;
+}
+
+.bar-set.rep-respondents ul li.rep-200 {
+  width: 6.9%;
+}
+
+.bar-set.rep-respondents ul li.rep-200 span {
+  left: 6.9%;
+}
+
+.bar-set.rep-respondents ul li.rep-100 {
+  width: 7.2%;
+}
+
+.bar-set.rep-respondents ul li.rep-100 span {
+  left: 7.2%;
+}
+
+.bar-set.rep-respondents ul li.rep-50 {
+  width: 5.7%;
+}
+
+.bar-set.rep-respondents ul li.rep-50 span {
+  left: 5.7%;
+}
+
+.bar-set.rep-respondents ul li.rep-2 {
+  width: 13.8%;
+}
+
+.bar-set.rep-respondents ul li.rep-2 span {
+  left: 13.8%;
+}
+
+.bar-set.rep-respondents ul li.rep-1 {
+  width: 8.9%;
+}
+
+.bar-set.rep-respondents ul li.rep-1 span {
+  left: 8.9%;
+}
+
+.bar-set.rep-respondents ul li.rep-none {
+  width: 21.2%;
+}
+
+.bar-set.rep-respondents ul li.rep-none span {
+  left: 21.2%;
+}
+
+.bar-set.rep-respondents ul li.rep-notsure {
+  width: 7.5%;
+}
+
+.bar-set.rep-respondents ul li.rep-notsure span {
+  left: 7.5%;
+}
+
+/* --- II. Visit Frequency --- */
+
+.bar-set ul li.freq-multiple {
+  width: 65.4%;
+}
+
+.bar-set ul li.freq-multiple span {
+  left: 65.4%;
+}
+
+.bar-set ul li.freq-daily {
+  width: 20.4%;
+}
+
+.bar-set ul li.freq-daily span {
+  left: 20.4%;
+}
+
+.bar-set ul li.freq-weekly {
+  width: 9.9%;
+}
+
+.bar-set ul li.freq-weekly span {
+  left: 9.9%;
+}
+
+.bar-set ul li.freq-monthly {
+  width: 1.9%;
+}
+
+.bar-set ul li.freq-monthly span {
+  left: 1.9%;
+}
+
+.bar-set ul li.freq-rarely {
+  width: 1.9%;
+}
+
+.bar-set ul li.freq-rarely span {
+  left: 1.9%;
+}
+
+.bar-set ul li.freq-never {
+  width: 0.5%;
+}
+
+.bar-set ul li.freq-never span {
+  left: 0.5%;
+}
+
+/* --- III. Visit Satisfaction --- */
+
+.bar-set ul li.satis-always {
+  width: 10.2%;
+}
+
+.bar-set ul li.satis-always span {
+  left: 10.2%;
+}
+
+.bar-set ul li.satis-usually {
+  width: 76%;
+}
+
+.bar-set ul li.satis-usually span {
+  left: 76%;
+}
+
+.bar-set ul li.satis-sometimes {
+  width: 13.1%;
+}
+
+.bar-set ul li.satis-sometimes span {
+  left: 13.1%;
+}
+
+.bar-set ul li.satis-rarely {
+  width: 0.6%;
+}
+
+.bar-set ul li.satis-rarely span {
+  left: 0.6%;
+}
+
+.bar-set ul li.satis-never {
+  width: 0.3%;
+}
+
+.bar-set ul li.satis-never span {
+  left: 0.3%;
+}
+
+/* --- IV. Motivation for Using SO --- */
+
+.bar-set ul li.motive-gethelp {
+  width: 72.1%;
+}
+
+.bar-set ul li.motive-gethelp span {
+  left: 72.1%;
+}
+
+.bar-set ul li.motive-learn {
+  width: 65.6%;
+}
+
+.bar-set ul li.motive-learn span {
+  left: 65.6%;
+}
+
+.bar-set ul li.motive-givehelp {
+  width: 55.5%;
+}
+
+.bar-set ul li.motive-givehelp span {
+  left: 55.5%;
+}
+
+.bar-set ul li.motive-personal {
+  width: 40.5%;
+}
+
+.bar-set ul li.motive-personal span {
+  left: 40.5%;
+}
+
+.bar-set ul li.motive-forjob {
+  width: 20.5%;
+}
+
+.bar-set ul li.motive-forjob span {
+  left: 20.5%;
+}
+
+.bar-set ul li.motive-communicate {
+  width: 17.1%;
+}
+
+.bar-set ul li.motive-communicate span {
+  left: 17.1%;
+}
+
+.bar-set ul li.motive-show {
+  width: 16.4%;
+}
+
+.bar-set ul li.motive-show span {
+  left: 16.4%;
+}
+
+.bar-set ul li.motive-presence {
+  width: 14.3%;
+}
+
+.bar-set ul li.motive-presence span {
+  left: 14.3%;
+}
+
+.bar-set ul li.motive-other {
+  width: 2.8%;
+}
+
+.bar-set ul li.motive-other span {
+  left: 2.8%;
+}
+
+.bar-set ul li.motive-none {
+  width: 1.3%;
+}
+
+.bar-set ul li.motive-none span {
+  left: 1.3%;
+}
+
+/* --- V. Motivation for Answering Questions --- */
+
+.bar-set ul li.answer-help {
+  width: 64.0%;
+}
+
+.bar-set ul li.answer-help span {
+  left: 64.0%;
+}
+
+.bar-set ul li.answer-future {
+  width: 54.2%;
+}
+
+.bar-set ul li.answer-future span {
+  left: 54.2%;
+}
+
+.bar-set ul li.answer-answermore {
+  width: 35.7%;
+}
+
+.bar-set ul li.answer-answermore span {
+  left: 35.7%;
+}
+
+.bar-set ul li.answer-responsibility {
+  width: 32.4%;
+}
+
+.bar-set ul li.answer-responsibility span {
+  left: 32.4%;
+}
+
+.bar-set ul li.answer-feelsgood {
+  width: 30.2%;
+}
+
+.bar-set ul li.answer-feelsgood span {
+  left: 30.2%;
+}
+
+.bar-set ul li.answer-expertise {
+  width: 20.8%;
+}
+
+.bar-set ul li.answer-expertise span {
+  left: 20.8%;
+}
+
+.bar-set ul li.answer-noidea {
+  width: 6.4%;
+}
+
+.bar-set ul li.answer-noidea span {
+  left: 6.4%;
+}
+
+.bar-set ul li.answer-nodesire {
+  width: 4.4%;
+}
+
+.bar-set ul li.answer-nodesire span {
+  left: 4.4%;
+}
+
+
+

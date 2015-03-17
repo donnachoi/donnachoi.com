@@ -74,7 +74,7 @@ body {
 /* Section Blocks */
 
 .block-splash{
-  height: 350px;
+  height: 300px;
   background-image: url(../img/splash.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,12 +83,17 @@ body {
 }
 
 .block-wrapper {
-  margin: 25px -15px;
+  margin: 5% -15px;
 }
 
 .section-intro {
-  padding: 2% 5%;
+  position: relative;
 }
+
+.section-intro-content {
+  padding: 3% 5%;
+}
+
 
 .section-content {
   padding: 5% 5%;
@@ -125,11 +130,17 @@ body {
   padding-left: 5px;
 }
 
+
 /* Section Elements */
 
 .splash-content {
   padding: 20px;
-  margin-top: 10%;
+  margin-top: 12%;
+  position: relative;
+}
+
+.subsection-head {
+  padding-top:5%;
 }
 
 .subsection-head:after {
@@ -283,6 +294,36 @@ sub {
   margin: 5px 0 5px;
 }
 
+._chevron:before {
+  content: url(../img/chevron-left.svg);
+  width: 17px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+._chevron:after {
+  content: url(../img/chevron-right.svg);
+  width: 17px;
+  position: absolute;
+  top: 20%;
+  right: 30%;
+}
+
+@media (max-width: 767px) {
+  ._chevron:before, ._chevron:after {
+ display: none;
+  }
+}
+
+
+/*.side-nav a:after {
+  font-family: 'FontAwesome';
+  content: "\f054";
+  float: right;
+  font-size: 12px;
+  color: #cacbcd;
+}*/
 
 /* Graphs */
 
@@ -292,7 +333,7 @@ sub {
   font-family: 'HelveticaNeue-Bd', Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-style: normal;  
-  line-height: .9;
+  line-height: 1;
   font-size: 13px;
 }
 
@@ -300,6 +341,12 @@ sub {
   display: block;
   padding: 3px 0;
   height: 35px;
+}
+
+@media (max-width: 767px) {
+  .bar-row {
+  height: 50px;
+  }
 }
 
 .bar-label {
@@ -310,6 +357,13 @@ sub {
   text-align: right;
 }
 
+@media (max-width: 767px) {
+  .bar-label {
+  text-align: left;
+  display: block;
+  }
+}
+
 .bar-set ul {
   list-style: none;
   margin: 0;
@@ -317,6 +371,18 @@ sub {
   width: 400px;
   display: inline-block;
   position: relative;
+}
+
+._bar-set-compress ul {
+  width: 350px;
+}
+
+@media (max-width: 767px) {
+  .bar-set ul, ._bar-set-compress ul {
+  width: 75%;
+  display: block;
+  float:left;
+  }
 }
 
 .bar-set ul li {
@@ -339,4 +405,31 @@ sub {
   text-align: center;
   color: #d2d3d4;
   padding: 10%;
+}
+
+.color-bar {
+  position: relative;
+  top: 0;
+  height: 3px;
+  width: 100%;
+  background-color: transparent;
+  display: block;
+}
+
+._color-bar-orange, ._color-bar-amber, ._color-bar-yellow {
+  height: 3px;
+  width: 33.333333333%;
+  float: left;
+}
+
+._color-bar-orange {
+  background-color: #ff6d1f;
+}
+
+._color-bar-amber {
+  background-color: #ffaa22;
+}
+
+._color-bar-yellow {
+  background-color: #ffca22;
 }

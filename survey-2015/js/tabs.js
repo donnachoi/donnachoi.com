@@ -27,3 +27,8 @@ $('#workCompLang a').click(function (e) {
   e.preventDefault();
   $(this).tab('show');
 })
+
+$('#workSatisfactionDev a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})

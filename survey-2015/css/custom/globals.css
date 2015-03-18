@@ -193,6 +193,19 @@ sub {
   position: relative;
 }
 
+/*.cta-content {
+  padding: 2% 0;
+}*/
+
+.cta-content:before {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #d2d3d4;
+  content: '';
+  margin: 5px 0 5px;
+  padding-top: 25px;
+}
+
 /* Subsection - Head */
 
 .subsection-head {

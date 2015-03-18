@@ -61,6 +61,10 @@ sub {
   line-height: 1.8;
 }
 
+._small {
+  font-size: 12px;
+}
+
 ._bold {
   font-family: 'HelveticaNeue-Bd', Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -123,7 +127,7 @@ sub {
 
 .block-splash{
   height: 300px;
-  background-image: url(../../img/splash.svg);
+  background-image: url(../../img/splash-03.svg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;

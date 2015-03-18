@@ -194,10 +194,37 @@
 									 </li>
 								</ul> -->
 							</li>
-							<li>CTA</li>
-							<li>Social links</li>
-							<li>Back to top</li>
 						</ul>
+						<ul class="back-to-top _muted">
+							<li>
+								<a href="#">
+									Back to top
+								</a>
+							</li>
+						</ul>
+						<ul class="action-nav">
+							<li>
+								<a href="#">
+									<span class="nav-discuss _bold">Discuss #Survey2015</span>
+								</a>
+							</li>
+							<li>
+								<span class="nav-copy _bold">Share
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="/">
+										<i class="fa fa-twitter"></i>
+									</a>
+									<a href="/">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</span>
+							</li>
+						</ul>
+
+
+
 					</div>
 				</div>
 
@@ -291,8 +318,44 @@
 								</h3>
 							</div>
 
-							<div class="placeholder">Highcharts Map</div>
+							<!-- Element: Tabs -->
 
+							<ul class="nav nav-tabs" id="profileGeo">
+							  <li class="active"><a href="#profileGeo-respondents">Respondents</a></li>
+							  <li><a href="#profileGeo-active">Active Users</a></li>
+							  <li><a href="#profileGeo-world">World Population</a></li>
+							</ul>
+							 
+							<div class="tab-content">
+
+							  <div class="tab-pane active" id="profileGeo-respondents">
+
+							  	<div class="placeholder">Respondents</div>
+
+							  	<sub class="_muted _line-top">XXXX responses</sub>
+							  </div>
+
+							  <div class="tab-pane" id="profileGeo-active">
+
+							  	<div class="placeholder">Active Users</div>
+
+							  	<sub class="_muted _line-top invisible">XXXX responses</sub>
+							  </div>
+
+							  <div class="tab-pane" id="profileGeo-world">
+
+							  	<div class="placeholder">World Population</div>
+
+							  	<sub class="_muted _line-top invisible">XXXX responses</sub>
+							  </div>
+
+							</div>
+
+							<script>
+							  $(function () {
+							    $('#profileGeo a:last').tab('show');
+							  })
+							</script>
 
 							<!-- II. Devs Per Capita -->
 
@@ -675,7 +738,7 @@
 
 							<!-- IX. Side Projects and Open Source -->
 
-							<div class="subsection-head" "id=profile-sideprojects">
+							<div class="subsection-head" id="profile-sideprojects">
 								<h3 class="_muted _inline-block">
 									IX. Side Projects and Open Source
 								</h3>
@@ -4460,6 +4523,8 @@
 
 						</div>
 					</section>
+
+					
 
 				<!-- End content -->
 

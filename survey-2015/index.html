@@ -9,6 +9,7 @@
 
 		<link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/flag-icon/flag-icon.css" rel="stylesheet" media="screen">
 		<link href="css/custom/font-face.css" rel="stylesheet" media="screen">
 		<link href="css/custom/globals.css" rel="stylesheet" media="screen">
 		<link href="css/custom/components.css" rel="stylesheet" media="screen">		
@@ -150,24 +151,27 @@
 										<a href="#work-compensation-geo">VI. Compensation by Geography</a>
 									 </li>
 									 <li>
-										<a href="#work-complang">VII. Compensation by Language</a>
+										<a href="#work-compensation-remote">VII. Compensation by Remote Status</a>
 									 </li>
 									 <li>
-										<a href="#work-comp-so">VIII. Compensation by Stack Overflow Rep</a>
+										<a href="#work-complang">VIII. Compensation by Language</a>
 									 </li>
 									 <li>
-										<a href="#work-status">IX. Employment Status</a>
+										<a href="#work-comp-so">IX. Compensation by Stack Overflow Rep</a>
 									 </li>
 									 <li>
-										<a href="#work-satisfaction">X. Job Satisfaction</a>
+										<a href="#work-status">X. Employment Status</a>
 									 </li>
 									 <li>
-										<a href="#work-satisfaction-by-dev">XI. Job Satisfaction by Dev Type</a>
-									 <li>
-										<a href="#work-remote">XII. Remote Work</a>
+										<a href="#work-satisfaction">XI. Job Satisfaction</a>
 									 </li>
 									 <li>
-										<a href="#work-remote-by-job">XII. XIII. Remote Work in Job Opportunities</a>
+										<a href="#work-satisfaction-by-dev">XII. Job Satisfaction by Dev Type</a>
+									 <li>
+										<a href="#work-remote">XIII. Remote Work</a>
+									 </li>
+									 <li>
+										<a href="#work-remote-by-job">XIV. XIII. Remote Work in Job Opportunities</a>
 									 </li>
 								</ul> -->
 							</li>
@@ -351,9 +355,159 @@
 								<h3 class="_muted _inline-block">
 									II. Devs Per Capita
 								</h3>
+								<sub class="_muted _pad-left-xs">Devs per 1000 people</sub>
 							</div>
 
-							<div class="placeholder">Toggle / Table</div>
+							<!-- Element: Tabs -->
+
+							<ul class="nav nav-tabs" id="profileCapita">
+							  <li class="active"><a href="#profileCapita-top">Top 6</a></li>
+							  <li><a href="#profileCapita-bottom">Bottom 6</a></li>
+							</ul>
+							 
+							<div class="tab-content">
+
+							  <div class="tab-pane active" id="profileCapita-top">
+
+									<div class="row">
+										<div class="col-md-6 col-sm-12">
+											<table class="table">
+												<tbody>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-lu"></span>
+														</td>
+														<td>Luxembourg</td>
+														<td>39.8</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-is"></span>
+														</td>
+														<td>Iceland</td>
+														<td>35.0</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-se"></span>
+														</td>
+														<td>Sweden</td>
+														<td>35.0</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-il"></span>
+														</td>
+														<td>Israel</td>
+														<td>33.4</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-fi"></span>
+														</td>
+														<td>Finland</td>
+														<td>33.0</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-sg"></span>
+														</td>
+														<td>Singapore</td>
+														<td>31.7</td>
+													</tr>
+
+												</tbody>
+											</table>
+
+											<sub class="_muted _line-top">
+												Among countries with 10k monthly SO sessions or more
+											</sub>
+
+										</div>
+									</div>
+
+							  </div>
+
+							  <div class="tab-pane" id="profileCapita-bottom">
+
+									<div class="row">
+										<div class="col-md-6">
+											<table class="table">
+												<tbody>
+
+													<tr>
+														<td>
+																<span class="flag-icon flag-icon-so"></span>
+														</td>
+														<td>Somalia</td>
+														<td>0.000</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-td"></span>
+														</td>
+														<td>Chad</td>
+														<td>0.000</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-kp"></span>
+														</td>
+														<td>North Korea</td>
+														<td>0.000</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-cd"></span>
+														</td>
+														<td>Congo</td>
+														<td>0.004</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-ml"></span>
+														</td>
+														<td>Mali</td>
+														<td>0.009</td>
+													</tr>
+
+													<tr>
+														<td>
+															<span class="flag-icon flag-icon-ss"></span>
+														</td>
+														<td>South Sudan</td>
+														<td>0.012</td>
+													</tr>
+
+												</tbody>
+											</table>
+
+											<sub class="_muted _line-top">
+												Among countries with at least 10 mil population
+											</sub>
+
+										</div>
+									</div>
+									
+							  </div>							
+
+							</div>
+
+							<script>
+							  $(function () {
+							    $('#profileCapita a:last').tab('show');
+							  })
+							</script>
 
 							<!-- III. Age -->
 
@@ -442,9 +596,6 @@
 								25,831 responses
 							</sub>
 
-
-
-
 							<!-- IV. Age by Country -->
 
 							<div class="subsection-head" id="profile-agebycountry">
@@ -453,7 +604,84 @@
 								</h3>
 							</div>
 
-							<div class="placeholder">Table</div>
+							<div class="row">
+								<div class="col-md-6">
+									<table class="table">
+										<tbody>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-us"></span>
+												</td>
+												<td>United States</td>
+												<td>31.6</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-gb"></span>
+												</td>
+												<td>United Kingdom</td>
+												<td>30.3</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-ca"></span>
+												</td>
+												<td>Canada</td>
+												<td>30.3</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-fr"></span>
+												</td>
+												<td>France</td>
+												<td>28.6</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-de"></span>
+												</td>
+												<td>Germany</td>
+												<td>29.0</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-pl"></span>
+												</td>
+												<td>Poland</td>
+												<td>26.7</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-ru"></span>
+												</td>
+												<td>Russia</td>
+												<td>26.6</td>
+											</tr>
+
+											<tr>
+												<td>
+														<span class="flag-icon flag-icon-in"></span>
+												</td>
+												<td>India</td>
+												<td>25.0</td>
+											</tr>
+
+										</tbody>
+									</table>
+
+									<sub class="_muted _line-top">
+										Among countries with at least 10 mil population
+									</sub>
+
+								</div>
+							</div>
 
 
 							<!-- V. Gender -->
@@ -2562,8 +2790,189 @@
 								</h3>
 							</div>
 
-							<div class="placeholder">Word Cloud?</div>
 
+							<!-- Element: Tabs -->
+
+							<ul class="nav nav-tabs" id="workDevTypes">
+							  <li class="active"><a href="#workDevTypes-mc">Multiple Choice</a></li>
+							  <li><a href="#workDevTypes-wi">Write-in</a></li>
+							</ul>
+							 
+							<div class="tab-content">
+
+							  <div class="tab-pane active" id="workDevTypes-mc">
+
+							  	<div class="bar-set devtypes-mc">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">DevOps</div>
+							  			<ul>
+								  			<li class="devtypes-devops">
+								  				<span>1.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Business intelligence or data warehousing expert</div>
+							  			<ul>
+								  			<li class="devtypes-biz">
+								  				<span>0.8%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Graphics programmer</div>
+							  			<ul>
+								  			<li class="devtypes-biz">
+								  				<span>0.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Quality Assurance</div>
+							  			<ul>
+								  			<li class="devtypes-biz">
+								  				<span>0.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Product Manager</div>
+							  			<ul>
+								  			<li class="devtypes-product">
+								  				<span>0.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>					  		
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Designer</div>
+							  			<ul>
+								  			<li class="devtypes-designer">
+								  				<span>0.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Database administrator</div>
+							  			<ul>
+								  			<li class="devtypes-database">
+								  				<span>0.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Growth hacker</div>
+							  			<ul>
+								  			<li class="devtypes-growth">
+								  				<span>0.3%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+
+							  	<sub class="_muted _line-top invisible">
+							  		Multiple choice and write-in responses
+							  	</sub>
+
+							  </div>
+
+							  <div class="tab-pane" id="workDevTypes-wi">
+
+							  	<div class="bar-set devtypes-wi">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Game developer or designer</div>
+							  			<ul>
+								  			<li class="devtypes-game">
+								  				<span>0.3%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">"Full-stack developer and..."</div>
+							  			<ul>
+								  			<li class="devtypes-fullstackplus">
+								  				<span>0.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">"Systems" programmer, engineer, architect, etc.</div>
+							  			<ul>
+								  			<li class="devtypes-systemsplus">
+								  				<span>0.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Scientist</div>
+							  			<ul>
+								  			<li class="devtypes-scientist">
+								  				<span>0.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Professor or teacher</div>
+							  			<ul>
+								  			<li class="devtypes-prof">
+								  				<span>0.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Analyst</div>
+							  			<ul>
+								  			<li class="devtypes-analyst">
+								  				<span>0.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Farmer</div>
+							  			<ul>
+								  			<li class="devtypes-farmer">
+								  				<span>0.01%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">I shoot lasers at stuffz</div>
+							  			<ul>
+								  			<li class="devtypes-lasers">
+								  				<span>0.005%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+							  	<sub class="_muted _line-top invisible">
+							  		Multiple choice and write-in responses
+							  	</sub>
+							  </div>
+
+							 </div>
+
+							<script>
+							  $(function () {
+							    $('#workDevTypes a:last').tab('show');
+							  })
+							</script>
 
 							<!-- V. Industry -->
 
@@ -3005,13 +3414,404 @@
 								</h3>
 							</div>
 
-							<div class="placeholder">Graph</div>
+							<div class="row">
+								<div class="col-md-12">
+									<table class="table">
+										<tbody>
+											<thead class="_bold">
+												<th>&nbsp;</th>
+												<th>Country</th>
+												<th>Big Mac Index</th>
+												<th>How many Big Macs can you buy?</th>
+											</thead>
 
-							<!-- VII. Compensation by Language -->
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-ua"></span>
+												</td>
+												<td>Ukraine</td>
+												<td>1.2</td>
+												<td>21,825</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-za"></span>
+												</td>
+												<td>South Africa</td>
+												<td>2.22</td>
+												<td>19,215</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-us"></span>
+												</td>
+												<td>United States</td>
+												<td>4.79</td>
+												<td>18,712</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-au"></span>
+												</td>
+												<td>Australia</td>
+												<td>4.32</td>
+												<td>17,802</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-ru"></span>
+												</td>
+												<td>Russia</td>
+												<td>1.36</td>
+												<td>17,571</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-gb"></span>
+												</td>
+												<td>United Kingdom</td>
+												<td>4.37</td>
+												<td>15,757</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-il"></span>
+												</td>
+												<td>Israel</td>
+												<td>4.45</td>
+												<td>15,280</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-ca"></span>
+												</td>
+												<td>Canada</td>
+												<td>4.64</td>
+												<td>14,711</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-ie"></span>
+												</td>
+												<td>Ireland</td>
+												<td>4.26</td>
+												<td>14,661</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-nz"></span>
+												</td>
+												<td>New Zealand</td>
+												<td>4.49</td>
+												<td>14,042</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-cn"></span>
+												</td>
+												<td>China</td>
+												<td>2.77</td>
+												<td>13,803</td>
+											</tr>
+
+										</tbody>
+									</table>
+
+									<sub class="_muted _line-top">
+										Among countries with at least 100 survey respondents. Based on 
+					  				<a href="http://www.economist.com/content/big-mac-index">
+					  					The Economist's Jan 2015 Big Mac Index.
+					  				</a>
+					  			</sub>
+
+								</div>
+							</div>
+
+
+							<!-- VII. Compensation - Remote -->
+
+							<div class="subsection-head" id="work-compensation-remote">
+								<h3 class="_muted _inline-block">
+									VII. Compensation by Remote Status
+								</h3>
+							</div>
+
+
+							<!-- Element: Tabs -->
+
+							<ul class="nav nav-tabs" id="workCompRemote">
+							  <li class="active"><a href="#workCompRemote-total">Total</a></li>
+							  <li><a href="#workCompRemote-us">United States</a></li>
+							  <li><a href="#workCompRemote-india">India</a></li>
+							  <li><a href="#workCompRemote-russia">Russia</a></li>	
+							  <li><a href="#workCompRemote-brazil">Brazil</a></li>			  
+							</ul>
+							 
+							<div class="tab-content">
+
+							  <div class="tab-pane active" id="workCompRemote-total">
+
+							  	<div class="bar-set _bar-set-compress-xs compremote-total">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Full-time remote</div>
+							  			<ul>
+								  			<li class="compremote-ft">
+								  				<span>114.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Part-time remote</div>
+							  			<ul>
+								  			<li class="compremote-pt">
+								  				<span>108.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Rarely remote</div>
+							  			<ul>
+								  			<li class="compremote-rarely">
+								  				<span>97.4%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Never remote</div>
+							  			<ul>
+								  			<li class="compremote-never">
+								  				<span>79.7%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+
+							  	<sub class="_muted _line-top">
+							  		Avg. salaries calculated as average mid value of selected salary range among respondents from top 35 responding countries.
+							  	</sub>
+
+							 	</div>
+
+							  <div class="tab-pane" id="workCompRemote-us">
+
+							  	<div class="bar-set _bar-set-compress-xs compremote-us">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Full-time remote</div>
+							  			<ul>
+								  			<li class="compremote-ft">
+								  				<span>113.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Part-time remote</div>
+							  			<ul>
+								  			<li class="compremote-pt">
+								  				<span>110.4%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Rarely remote</div>
+							  			<ul>
+								  			<li class="compremote-rarely">
+								  				<span>105.8%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Never remote</div>
+							  			<ul>
+								  			<li class="compremote-never">
+								  				<span>90.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+
+							  	<sub class="_muted _line-top invisible">
+							  		Avg. salaries calculated as average mid value of selected salary range among respondents from top 35 responding countries.
+							  	</sub>
+
+							 	</div>
+
+							  <div class="tab-pane" id="workCompRemote-india">
+
+							  	<div class="bar-set _bar-set-compress-xs compremote-india">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Full-time remote</div>
+							  			<ul>
+								  			<li class="compremote-ft">
+								  				<span>140.8%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Part-time remote</div>
+							  			<ul>
+								  			<li class="compremote-pt">
+								  				<span>112.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Rarely remote</div>
+							  			<ul>
+								  			<li class="compremote-rarely">
+								  				<span>94.9%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Never remote</div>
+							  			<ul>
+								  			<li class="compremote-never">
+								  				<span>72.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+
+							  	<sub class="_muted _line-top invisible">
+							  		Avg. salaries calculated as average mid value of selected salary range among respondents from top 35 responding countries.
+							  	</sub>
+
+							 	</div>
+
+							  <div class="tab-pane" id="workCompRemote-russia">
+
+							  	<div class="bar-set _bar-set-compress-xs compremote-russia">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Full-time remote</div>
+							  			<ul>
+								  			<li class="compremote-ft">
+								  				<span>150.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Part-time remote</div>
+							  			<ul>
+								  			<li class="compremote-pt">
+								  				<span>100.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Rarely remote</div>
+							  			<ul>
+								  			<li class="compremote-rarely">
+								  				<span>96.4%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Never remote</div>
+							  			<ul>
+								  			<li class="compremote-never">
+								  				<span>76.3%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+
+							  	<sub class="_muted _line-top invisible">
+							  		Avg. salaries calculated as average mid value of selected salary range among respondents from top 35 responding countries.
+							  	</sub>
+
+							 	</div>
+
+							  <div class="tab-pane" id="workCompRemote-brazil">
+
+							  	<div class="bar-set _bar-set-compress-xs compremote-brazil">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Full-time remote</div>
+							  			<ul>
+								  			<li class="compremote-ft">
+								  				<span>123.4%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Part-time remote</div>
+							  			<ul>
+								  			<li class="compremote-pt">
+								  				<span>102.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Rarely remote</div>
+							  			<ul>
+								  			<li class="compremote-rarely">
+								  				<span>99.9%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">Never remote</div>
+							  			<ul>
+								  			<li class="compremote-never">
+								  				<span>76.3%</span>
+								  			</li>
+							  			</ul>
+							  		</div>
+
+							  	</div>
+
+							  	<sub class="_muted _line-top invisible">
+							  		Avg. salaries calculated as average mid value of selected salary range among respondents from top 35 responding countries.
+							  	</sub>
+
+							 	</div>
+
+							</div>
+
+							<script>
+							  $(function () {
+							    $('#workCompRemote a:last').tab('show');
+							  })
+							</script>
+
+							<!-- VIII. Compensation by Language -->
 
 							<div class="subsection-head" id="work-complang">
 								<h3 class="_muted _inline-block">
-									VII. Compensation by Language
+									VIII. Compensation by Language
 								</h3>
 							</div>
 
@@ -3361,11 +4161,11 @@
 							</script>
 
 
-							<!-- VIII. Compensation by Stack Overflow Rep -->
+							<!-- IX. Compensation by Stack Overflow Rep -->
 
 							<div class="subsection-head" id="work-comp-so">
 								<h3 class="_muted _inline-block">
-									VIII. Compensation by Stack Overflow Rep
+									IX. Compensation by Stack Overflow Rep
 								</h3>
 							</div>
 
@@ -3477,11 +4277,11 @@
 								13,224 respondents from top 35 responding countries
 							</sub>
 
-							<!-- IX. Employment Status -->
+							<!-- X. Employment Status -->
 
 							<div class="subsection-head" id="work-status">
 								<h3 class="_muted _inline-block">
-									IX. Employment Status
+									X. Employment Status
 								</h3>
 							</div>
 
@@ -3565,11 +4365,11 @@
 								21,306 responses
 							</sub>
 
-							<!-- X. Job Satisfaction -->
+							<!-- XI. Job Satisfaction -->
 
 							<div class="subsection-head" id="work-satisfaction">
 								<h3 class="_muted _inline-block">
-									X. Job Satisfaction
+									XI. Job Satisfaction
 								</h3>
 							</div>
 
@@ -3627,11 +4427,11 @@
 							</sub>
 
 
-							<!-- XI. Job Satisfaction by Dev Type -->
+							<!-- XII. Job Satisfaction by Dev Type -->
 
 							<div class="subsection-head" id="work-satisfaction-by-dev">
 								<h3 class="_muted _inline-block">
-									XI. Job Satisfaction by Dev Type
+									XII. Job Satisfaction by Dev Type
 								</h3>
 							</div>
 
@@ -3764,11 +4564,11 @@
 							  })
 							</script>
 
-							<!-- XII. Remote Work -->
+							<!-- XIII. Remote Work -->
 
 							<div class="subsection-head" id="work-remote">
 								<h3 class="_muted _inline-block">
-									XII. Remote Work
+									XIII. Remote Work
 								</h3>
 							</div>
 
@@ -3815,11 +4615,11 @@
 								16,154 responses
 							</sub>
 
-							<!-- XIII. Remote Work in Job Opportunities-->
+							<!-- XIV. Remote Work in Job Opportunities-->
 
 							<div class="subsection-head" id="work-remote-by-job">
 								<h3 class="_muted _inline-block">
-									XIII. Remote Work in Job Opportunities
+									XIV. Remote Work in Job Opportunities
 								</h3>
 							</div>
 
@@ -4538,8 +5338,20 @@
 										<i class="fa fa-lg fa-google-plus-square _google-plus-red"></i>
 									</div>
 								</div>
+
+							<div class="col-md-12 _pad-vertical-lg">
+								<p class="_muted _small">Built with &hearts; using 
+									<span class="_tag">.net</span>
+									<span class="_tag">c#</span>
+									<span class="_tag">font awesome</span>
+									<span class="_tag">bootstrap</span>
+									<span class="_tag">flag-icon-css</span>
+								</p>
 							</div>
+
 						</div>
+
+
 					</section>
 
 				<!-- End content -->

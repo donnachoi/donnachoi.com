@@ -103,10 +103,6 @@ sub {
   color: #d73d32;
 }
 
-._padding-left {
-  padding-left: 10px;
-}
-
 ._line-top:before {
   display: block;
   width: 25%;
@@ -118,8 +114,8 @@ sub {
 ._tag {
   background-color: #e4edf4;
   color: #3e6d8e;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 8px;
+  margin: 10px 7px 10px 0;
 }
 
 ._tag:hover {
@@ -234,6 +230,10 @@ sub {
   padding: 20px;
   margin-top: 12%;
   position: relative;
+}
+
+.cta-content {
+  padding: 2% 0;
 }
 
 .cta-content:before {

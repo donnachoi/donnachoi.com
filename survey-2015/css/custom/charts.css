@@ -1585,6 +1585,141 @@
   left: 14.2%;
 }
 
+/* --- IV. Other Dev Types --- */
+
+/* Multiple Choice */
+
+.bar-set.devtypes-mc ul li.devtypes-devops {
+  width: 10.5%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-devops span {
+  left: 10.5%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-biz {
+  width: 8%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-biz span {
+  left: 8%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-graphics {
+  width: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-graphics span {
+  left: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-qa {
+  width: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-qa span {
+  left: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-product {
+  width: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-product span {
+  left: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-designer {
+  width: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-designer span {
+  left: 7%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-database {
+  width: 5%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-database span {
+  left: 5%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-growth {
+  width: 3%;
+}
+
+.bar-set.devtypes-mc ul li.devtypes-growth span {
+  left: 3%;
+}
+
+/* Write-in */
+
+.bar-set.devtypes-wi ul li.devtypes-game {
+  width: 3%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-game span {
+  left: 3%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-fullstackplus {
+  width: 2%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-fullstackplus span {
+  left: 2%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-systemsplus {
+  width: 2%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-systemsplus span {
+  left: 2%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-scientist {
+  width: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-scientist span {
+  left: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-prof {
+  width: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-prof span {
+  left: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-analyst {
+  width: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-analyst span {
+  left: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-farmer {
+  width: .3%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-farmer span {
+  left: .3%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-lasers {
+  width: .2%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-lasers span {
+  left: .2%;
+}
+
+
 /* --- V. Industry --- */
 
 /* Total */
@@ -1914,7 +2049,7 @@
   left: 27%;
 }
 
-/* --- VII. Compensation by Language --- */
+/* --- VIII. Compensation by Language --- */
 
 /* US */
 
@@ -2186,7 +2321,179 @@
   left: 22.563%;
 }
 
-/* --- VIII. Compensation by Stack Overflow Rep --- */
+/* --- VII. Compensation - Remote --- */
+
+/* Total */
+
+.bar-set.compremote-total ul li.compremote-ft {
+  width: 114.1%;
+}
+
+.bar-set.compremote-total ul li.compremote-ft span {
+  left: 114.1%;
+}
+
+.bar-set.compremote-total ul li.compremote-pt {
+  width: 108.0%;
+}
+
+.bar-set.compremote-total ul li.compremote-pt span {
+  left: 108.0%;
+}
+
+.bar-set.compremote-total ul li.compremote-rarely {
+  width: 97.4%;
+}
+
+.bar-set.compremote-total ul li.compremote-rarely span {
+  left: 97.4%;
+}
+
+.bar-set.compremote-total ul li.compremote-never {
+  width: 79.7%;
+}
+
+.bar-set.compremote-total ul li.compremote-never span {
+  left: 79.7%;
+}
+
+/* US */
+
+.bar-set.compremote-us ul li.compremote-ft {
+  width: 113.0%;
+}
+
+.bar-set.compremote-us ul li.compremote-ft span {
+  left: 113.0%;
+}
+
+.bar-set.compremote-us ul li.compremote-pt {
+  width: 110.4%;
+}
+
+.bar-set.compremote-us ul li.compremote-pt span {
+  left: 110.4%;
+}
+
+.bar-set.compremote-us ul li.compremote-rarely {
+  width: 105.8%;
+}
+
+.bar-set.compremote-us ul li.compremote-rarely span {
+  left: 105.8%;
+}
+
+.bar-set.compremote-us ul li.compremote-never {
+  width: 90.5%;
+}
+
+.bar-set.compremote-us ul li.compremote-never span {
+  left: 90.5%;
+}
+
+/* India */
+
+.bar-set.compremote-india ul li.compremote-ft {
+  width: 140.8%;
+}
+
+.bar-set.compremote-india ul li.compremote-ft span {
+  left: 140.8%;
+}
+
+.bar-set.compremote-india ul li.compremote-pt {
+  width: 112.2%;
+}
+
+.bar-set.compremote-india ul li.compremote-pt span {
+  left: 112.2%;
+}
+
+.bar-set.compremote-india ul li.compremote-rarely {
+  width: 94.9%;
+}
+
+.bar-set.compremote-india ul li.compremote-rarely span {
+  left: 94.9%;
+}
+
+.bar-set.compremote-india ul li.compremote-never {
+  width: 72.5%;
+}
+
+.bar-set.compremote-india ul li.compremote-never span {
+  left: 72.5%;
+}
+
+/* Russia */
+
+.bar-set.compremote-russia ul li.compremote-ft {
+  width: 150.0%;
+}
+
+.bar-set.compremote-russia ul li.compremote-ft span {
+  left: 150.0%;
+}
+
+.bar-set.compremote-russia ul li.compremote-pt {
+  width: 100.1%;
+}
+
+.bar-set.compremote-russia ul li.compremote-pt span {
+  left: 100.1%;
+}
+
+.bar-set.compremote-russia ul li.compremote-rarely {
+  width: 96.4%;
+}
+
+.bar-set.compremote-russia ul li.compremote-rarely span {
+  left: 96.4%;
+}
+
+.bar-set.compremote-russia ul li.compremote-never {
+  width: 76.3%;
+}
+
+.bar-set.compremote-russia ul li.compremote-never span {
+  left: 76.3%;
+}
+
+/* Brazil */
+
+.bar-set.compremote-brazil ul li.compremote-ft {
+  width: 123.4%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-ft span {
+  left: 123.4%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-pt {
+  width: 113.1%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-pt span {
+  left: 113.1%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-rarely {
+  width: 102.2%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-rarely span {
+  left: 102.2%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-never {
+  width: 99.9%;
+}
+
+.bar-set.compremote-brazil ul li.compremote-never span {
+  left: 99.9%;
+}
+
+/* --- IX. Compensation by Stack Overflow Rep --- */
 
 .bar-set ul li.compso-10000 {
   width: 83%;
@@ -2276,7 +2583,7 @@
   left: 83%;
 }
 
-/* --- IX. Employment Status --- */
+/* --- X. Employment Status --- */
 
 .bar-set ul li.status-ft {
   width: 66.3%;
@@ -2470,7 +2777,7 @@
   left: 64.2%;
 }
 
-/* --- XII. Remote Work --- */
+/* --- XIII. Remote Work --- */
 
 .bar-set ul li.remote-ft {
   width: 10.4%;
@@ -2504,7 +2811,7 @@
   left: 22.8%;
 }
 
-/* ---XIII. Remote Work in Job Opportunities --- */
+/* ---XIV. Remote Work in Job Opportunities --- */
 
 .bar-set ul li.remotejob-always {
   width: 4.1%;
@@ -2548,7 +2855,7 @@
 
 /* ------- COMMUNITY ------- */
 
-/* --- I. Reputatiom --- */
+/* --- I. Reputation --- */
 
 /* Active */
 

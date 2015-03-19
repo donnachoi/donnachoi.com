@@ -169,8 +169,12 @@
   width: 300px;
 }
 
+._bar-set-compress-xs ul {
+  width: 250px;
+}
+
 @media (max-width: 767px) {
-  .bar-set ul, ._bar-set-compress ul {
+  .bar-set ul, ._bar-set-compress ul, ._bar-set-compress-xs ul {
   width: 65%;
   display: block;
   float:left;

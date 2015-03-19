@@ -106,36 +106,72 @@
 
 /* --- VI. Women in Technical Fields --- */
 
-.bar-set ul li.women-11plus {
+/* Women */
+
+.bar-set.genderexp-women ul li.genderexp-11plus {
   width: 9.5%;
 }
 
-.bar-set ul li.women-11plus span {
+.bar-set.genderexp-women ul li.genderexp-11plus span {
   left: 9.5%;
 }
 
-.bar-set ul li.women-6-10 {
+.bar-set.genderexp-women ul li.genderexp-6-10 {
   width: 15.1%;
 }
 
-.bar-set ul li.women-6-10 span {
+.bar-set.genderexp-women ul li.genderexp-6-10 span {
   left: 15.1%;
 }
 
-.bar-set ul li.women-2-5 {
+.bar-set.genderexp-women ul li.genderexp-2-5 {
   width: 30.1%;
 }
 
-.bar-set ul li.women-2-5 span {
+.bar-set.genderexp-women ul li.genderexp-2-5 span {
   left: 30.1%;
 }
 
-.bar-set ul li.women-lessthan2 {
+.bar-set.genderexp-women ul li.genderexp-lessthan2 {
   width: 37.1%;
 }
 
-.bar-set ul li.women-lessthan2 span {
+.bar-set.genderexp-women ul li.genderexp-lessthan2 span {
   left: 37.1%;
+}
+
+/* Men */
+
+.bar-set.genderexp-men ul li.genderexp-11plus {
+  width: 23.8%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-11plus span {
+  left: 23.8%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-6-10 {
+  width: 23%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-6-10 span {
+  left: 23%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-2-5 {
+  width: 31.2%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-2-5 span {
+  left: 31.2%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-lessthan2 {
+  width: 18.2%;
+}
+
+.bar-set.genderexp-men ul li.genderexp-lessthan2 span {
+  left: 18.2%;
 }
 
 

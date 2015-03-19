@@ -5,6 +5,11 @@ $('#profileGeo a').click(function (e) {
   $(this).tab('show');
 })
 
+$('#profileGenderExp a').click(function (e) {
+  e.preventDefault();
+  $(this).tab('show');
+})
+
 $('#profileCapita a').click(function (e) {
   e.preventDefault();
   $(this).tab('show');

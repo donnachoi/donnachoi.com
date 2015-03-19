@@ -208,10 +208,9 @@
 						</ul>
 						<ul class="action-nav">
 							<li>
-								<div class="_bold">Discuss on Meta</div>
-								<a href="#">
-									<span class="_tag">survey-2015</span>
-								</a>
+								<div>
+									<button class="btn-sm _outlined">Discuss on Meta</button>
+								</div>
 							</li>
 						</ul>
 
@@ -355,7 +354,6 @@
 								<h3 class="_muted _inline-block">
 									II. Devs Per Capita
 								</h3>
-								<sub class="_muted _pad-left-xs">Devs per 1000 people</sub>
 							</div>
 
 							<!-- Element: Tabs -->
@@ -370,10 +368,16 @@
 							  <div class="tab-pane active" id="profileCapita-top">
 
 									<div class="row">
-										<div class="col-md-6 col-sm-12">
+										<div class="col-md-7 col-sm-12">
 											<table class="table">
+												<thead>
+													<tr class="_bold">
+														<th>&nbsp;</th>
+														<th>Country</th>
+														<th>Devs per 1000 people</th>
+													</tr>
+												</thead>
 												<tbody>
-
 													<tr>
 														<td>
 															<span class="flag-icon flag-icon-lu"></span>
@@ -437,10 +441,16 @@
 							  <div class="tab-pane" id="profileCapita-bottom">
 
 									<div class="row">
-										<div class="col-md-6">
+										<div class="col-md-7 col-sm-12">
 											<table class="table">
+												<thead>
+													<tr class="_bold">
+														<th>&nbsp;</th>
+														<th>Country</th>
+														<th>Devs per 1000 people</th>
+													</tr>
+												</thead>
 												<tbody>
-
 													<tr>
 														<td>
 																<span class="flag-icon flag-icon-so"></span>
@@ -607,8 +617,14 @@
 							<div class="row">
 								<div class="col-md-6">
 									<table class="table">
+										<thead>
+											<tr class="_bold">
+												<th>&nbsp;</th>
+												<th>Country</th>
+												<th>Developer Age (avg.)</th>
+											</tr>
+										</thead>
 										<tbody>
-
 											<tr>
 												<td>
 														<span class="flag-icon flag-icon-us"></span>
@@ -743,48 +759,116 @@
 								</h3>
 							</div>
 
-					  	<div class="bar-set">
+							<!-- Element: Tabs -->
 
-				  			<div class="bar-row">
-					  			<div class="bar-label">11+ years</div>
-					  			<ul>
-						  			<li class="women-11plus">
-						  				<span>9.5%</span>
-						  			</li>
-					  			</ul>
-					  		</div>	
+							<ul class="nav nav-tabs" id="profileGenderExp">
+							  <li class="active"><a href="#profileGenderExp-women">Women</a></li>
+							  <li><a href="#profileGenderExp-men">Men</a></li>
+							</ul>
+							 
+							<div class="tab-content">
 
-				  			<div class="bar-row">
-					  			<div class="bar-label">6-10 years</div>
-					  			<ul>
-						  			<li class="women-6-10">
-						  				<span>15.1%</span>
-						  			</li>
-					  			</ul>
-					  		</div>	
+							  <div class="tab-pane active" id="profileGenderExp-women">
 
-				  			<div class="bar-row">
-					  			<div class="bar-label">2-5 years</div>
-					  			<ul>
-						  			<li class="women-2-5">
-						  				<span>30.1%</span>
-						  			</li>
-					  			</ul>
-					  		</div>						  
-		
-				  			<div class="bar-row">
-					  			<div class="bar-label">Less than 2 years</div>
-					  			<ul>
-						  			<li class="women-lessthan2">
-						  				<span>37.1%</span>
-						  			</li>
-					  			</ul>
-					  		</div>	
+							  	<div class="bar-set genderexp-women">
 
-					  	</div>
-							<sub class="_line-top _muted hide">
-								Respondents: 24,744
-							</sub>
+						  			<div class="bar-row">
+							  			<div class="bar-label">11+ years</div>
+							  			<ul>
+								  			<li class="genderexp-11plus">
+								  				<span>9.5%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">6-10 years</div>
+							  			<ul>
+								  			<li class="genderexp-6-10">
+								  				<span>15.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">2-5 years</div>
+							  			<ul>
+								  			<li class="genderexp-2-5">
+								  				<span>30.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>						  
+				
+						  			<div class="bar-row">
+							  			<div class="bar-label">Less than 2 years</div>
+							  			<ul>
+								  			<li class="genderexp-lessthan2">
+								  				<span>37.1%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+							  	</div>
+									<sub class="_line-top _muted hide">
+										Respondents: 24,744
+									</sub>
+
+								</div>
+
+							  <div class="tab-pane" id="profileGenderExp-men">
+
+							  	<div class="bar-set genderexp-men">
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">11+ years</div>
+							  			<ul>
+								  			<li class="genderexp-11plus">
+								  				<span>23.8%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">6-10 years</div>
+							  			<ul>
+								  			<li class="genderexp-6-10">
+								  				<span>23.0%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+						  			<div class="bar-row">
+							  			<div class="bar-label">2-5 years</div>
+							  			<ul>
+								  			<li class="genderexp-2-5">
+								  				<span>31.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>						  
+				
+						  			<div class="bar-row">
+							  			<div class="bar-label">Less than 2 years</div>
+							  			<ul>
+								  			<li class="genderexp-lessthan2">
+								  				<span>18.2%</span>
+								  			</li>
+							  			</ul>
+							  		</div>	
+
+							  	</div>
+									<sub class="_line-top _muted hide">
+										Respondents: 24,744
+									</sub>
+
+								</div>
+
+							</div>
+
+							<script>
+							  $(function () {
+							    $('#profileGenderExp a:last').tab('show');
+							  })
+							</script>							
 
 							<!-- VII. Education -->
 
@@ -2291,15 +2375,104 @@
 								</h3>
 							</div>
 
-					  	<div class="bar-set">
+							<div class="row">
+								<div class="col-md-9 col-sm-12">
+									<table class="table">
+										<thead class="_bold">
+											<th>&nbsp;</th>
+											<th>Country</th>
+											<th>Caffeinated beverages per day (avg.)</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-no"></span>
+												</td>
+												<td>Norway</td>
+												<td>3.09</td>
+											</tr>
 
-					  		<div class="placeholder">Image</div>
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-nl"></span>
+												</td>
+												<td>Netherlands</td>
+												<td>3.04</td>
+											</tr>
 
-					  	</div>
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-se"></span>
+												</td>
+												<td>Sweden</td>
+												<td>2.94</td>
+											</tr>
 
-							<sub class="_line-top _muted ">
-								16,516 responses
-							</sub>
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-fi"></span>
+												</td>
+												<td>Finland</td>
+												<td>2.76</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-ir"></span>
+												</td>
+												<td>Iran</td>
+												<td>2.74</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-dk"></span>
+												</td>
+												<td>Denmark</td>
+												<td>2.70</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-za"></span>
+												</td>
+												<td>South Africa</td>
+												<td>2.59</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-gb"></span>
+												</td>
+												<td>United Kingdom</td>
+												<td>2.54</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-tr"></span>
+												</td>
+												<td>Turkey</td>
+												<td>2.50</td>
+											</tr>
+
+											<tr>
+												<td>
+													<span class="flag-icon flag-icon-de"></span>
+												</td>
+												<td>Germany</td>
+												<td>2.44</td>
+											</tr>
+
+										</tbody>
+									</table>
+
+									<sub class="_muted _line-top">
+										16,516 responses
+					  			</sub>
+
+								</div>
+							</div>
 						
 						<!-- End Section Content  -->
 
@@ -3417,14 +3590,13 @@
 							<div class="row">
 								<div class="col-md-12">
 									<table class="table">
+										<thead class="_bold">
+											<th>&nbsp;</th>
+											<th>Country</th>
+											<th>Big Mac Index</th>
+											<th>How many Big Macs can you buy?</th>
+										</thead>
 										<tbody>
-											<thead class="_bold">
-												<th>&nbsp;</th>
-												<th>Country</th>
-												<th>Big Mac Index</th>
-												<th>How many Big Macs can you buy?</th>
-											</thead>
-
 											<tr>
 												<td>
 													<span class="flag-icon flag-icon-ua"></span>
@@ -3529,7 +3701,7 @@
 
 									<sub class="_muted _line-top">
 										Among countries with at least 100 survey respondents. Based on 
-					  				<a href="http://www.economist.com/content/big-mac-index">
+					  				<a href="http://www.economist.com/content/big-mac-index" target="_blank">
 					  					The Economist's Jan 2015 Big Mac Index.
 					  				</a>
 					  			</sub>
@@ -5323,24 +5495,25 @@
 								</div>
 								<div class="col-md-8 col-sm-6">
 									<p>
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis purus hendrerit, ultricies dui non, pharetra velit. Pellentesque in quam sodales, mattis sapien a, luctus odio.
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis purus hendrerit ipsum dolor sit amet, consectetur adipiscing.
 									</p>
 									<div class="_pad-bottom-lg _pad-top-md">
-										<a href="/">
-											<span class="_tag">survey-2015
-											</span>
-										</a>
+										<button class="_primary">
+											Join the Discussion
+										</button>
 									</div>
-									<div class="cta-share">
+									<div class="cta-share _small">
 										<span class="_bold">Share</span>
-										<i class="fa fa-lg fa-facebook-square _fb-blue"></i>
-										<i class="fa fa-lg fa-twitter-square _twitter-blue"></i>
-										<i class="fa fa-lg fa-google-plus-square _google-plus-red"></i>
+										<i class="fa fa-lg fa-facebook-square"></i>
+										<i class="fa fa-lg fa-twitter-square"></i>
+										<i class="fa fa-lg fa-google-plus-square"></i>
 									</div>
 								</div>
 
-							<div class="col-md-12 _pad-vertical-lg">
-								<p class="_muted _small">Built with &hearts; using 
+						</div>
+						<div class="row">
+							<div class="col-md-12 _pad-vertical-sm">
+								<p class="_muted _small">Built with &hearts; using&nbsp;
 									<span class="_tag">.net</span>
 									<span class="_tag">c#</span>
 									<span class="_tag">font awesome</span>
@@ -5348,9 +5521,7 @@
 									<span class="_tag">flag-icon-css</span>
 								</p>
 							</div>
-
 						</div>
-
 
 					</section>
 

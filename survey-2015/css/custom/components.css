@@ -183,8 +183,12 @@
 
 .bar-set ul li {
   height: 13px;
-  background: #ff6d1f;
+  background-color: #ff6d1f;
   content: '';
+}
+
+.bar-set ul li._background-amber {
+ background-color: #ffaa22;
 }
 
 .bar-set ul li span {

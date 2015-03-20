@@ -174,6 +174,32 @@
   left: 18.2%;
 }
 
+/* Infobox: Women in Technical Fields by Geography */
+
+.bar-set ul li.info-women-india {
+  width: 15.1%;
+}
+
+.bar-set ul li.info-women-india span {
+  left: 15.1%;
+}
+
+.bar-set ul li.info-women-us {
+  width: 4.8%;
+}
+
+.bar-set ul li.info-women-us span {
+  left: 4.8%;
+}
+
+.bar-set ul li.info-women-sweden {
+  width: 2.3%;
+}
+
+.bar-set ul li.info-women-sweden span {
+  left: 2.3%;
+}
+
 
 /* --- VII. Education --- */
 
@@ -1074,6 +1100,49 @@
 .bar-set.os-2013 ul li.os-other span {
   left: 1.0%;
 }
+
+/* Infobox - Linuxes */
+
+.bar-set ul li.info-os-ubuntu {
+  width: 12.0%;
+}
+
+.bar-set ul li.info-os-ubuntu span {
+  left: 12.0%;
+}
+
+.bar-set ul li.info-os-debian {
+  width: 2.2%;
+}
+
+.bar-set ul li.info-os-debian span {
+  left: 2.2%;
+}
+
+.bar-set ul li.info-os-mint {
+  width: 1.6%;
+}
+
+.bar-set ul li.info-os-mint span {
+  left: 1.6%;
+}
+
+.bar-set ul li.info-os-fedora {
+  width: 1.3%;
+}
+
+.bar-set ul li.info-os-fedora span {
+  left: 1.3%;
+}
+
+.bar-set ul li.info-os-other {
+  width: 4.0%;
+}
+
+.bar-set ul li.info-os-other span {
+  left: 4.0%;
+}
+
 
 /* --- IV. Text Editor --- */
 
@@ -2357,6 +2426,64 @@
   left: 22.563%;
 }
 
+/* Infobox: Top-Paying Tech */
+
+.bar-set ul li.info-complang-cass {
+  width: 64.111%;
+}
+
+.bar-set ul li.info-complang-cass span {
+  left: 64.111%;
+}
+
+.bar-set ul li.info-complang-spark {
+  width: 61%;
+}
+
+.bar-set ul li.info-complang-spark span {
+  left: 61%;
+}
+
+.bar-set ul li.info-complang-fsharp {
+  width: 60.834%;
+}
+
+.bar-set ul li.info-complang-fsharp span {
+  left: 60.834%;
+}
+
+.bar-set ul li.info-complang-hadoop {
+  width: 58.379%;
+}
+
+.bar-set ul li.info-complang-hadoop span {
+  left: 58.379%;
+}
+
+.bar-set ul li.info-complang-scala {
+  width: 56.697%;
+}
+
+.bar-set ul li.info-complang-scala span {
+  left: 56.697%;
+}
+
+.bar-set ul li.info-complang-redis {
+  width: 55.058%;
+}
+
+.bar-set ul li.info-complang-redis span {
+  left: 55.058%;
+}
+
+.bar-set ul li.info-complang-cloud {
+  width: 54.969%;
+}
+
+.bar-set ul li.info-complang-cloud span {
+  left: 54.969%;
+}
+
 /* --- VII. Compensation - Remote --- */
 
 /* Total */
@@ -2683,6 +2810,59 @@
 
 .bar-set ul li.status-other span {
   left: 1.1%;
+}
+
+/* Infobox - Side Projects by Employment Status */
+
+.bar-set ul li.info-status-ft {
+  width: 24.868%;
+}
+
+.bar-set ul li.info-status-ft span {
+  left: 24.868%;
+}
+
+.bar-set ul li.info-status-student {
+  width: 36.732%;
+}
+
+.bar-set ul li.info-status-student span {
+  left: 36.732%;
+}
+
+.bar-set ul li.info-status-freelance {
+  width: 36%;
+}
+
+.bar-set ul li.info-status-freelance span {
+  left: 36%;
+}
+
+.bar-set ul li.info-status-pt {
+  width: 30.732%;
+}
+
+.bar-set ul li.info-status-pt span {
+  left: 30.732%;
+}
+
+.bar-set ul li.info-status-unemployed {
+  width: 53.868%;
+}
+
+.bar-set ul li.info-status-unemployed span {
+  left: 53.868%;
+}
+
+
+
+
+.bar-set ul li.info-status-retired {
+  width: 65.468%;
+}
+
+.bar-set ul li.info-status-retired span {
+  left: 65.468%;
 }
 
 /* --- X. Job Satisfaction --- */

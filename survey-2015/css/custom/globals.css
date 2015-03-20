@@ -45,13 +45,20 @@ h2, .h2 {
   font-size: 30px;
 }
 
-h3, .h3 {
+h3, .h3, h4, .h4 {
   font-family: 'HelveticaNeue-BdCn', Helvetica, Arial, sans-serif;
-  font-size: 18px;
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+h3, .h3 {
+  font-size: 18px;
+}
+
+h4, .h4 {
+  font-size: 14px;
 }
 
 p, .p {
@@ -65,6 +72,7 @@ sub {
   bottom: 0;
   font-weight: normal;
   font-style: italic;
+  padding-bottom:10px;
 }
 
 /* Type Modifiers */
@@ -118,6 +126,31 @@ sub {
   border-top: 1px solid #d2d3d4;
   content: '';
   margin: 5px 0 5px;
+}
+
+._line-bottom-full {
+  padding:10px;
+}
+
+._line-bottom-full:after {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #d2d3d4;
+  content: '';
+  margin: 5px 0 5px;
+}
+
+._flag:before {
+  font-family: 'FontAwesome';
+  content: "\f024";
+  color: #ffaa22;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #ffaa22;
 }
 
 ._tag {
@@ -251,11 +284,11 @@ button:hover {
 
 ._background-light {
    background-color: #f1f1f2;
- }
+}
 
- ._background-white {
-   background-color: #fff;
- }
+._background-white {
+ background-color: #fff;
+}
 
 ._inline-block {
   display: inline-block;
@@ -277,6 +310,10 @@ button:hover {
 ._pad-vertical-sm {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+._pad-bottom-sm {
+  padding-bottom: 10px;
 }
 
 ._pad-top-md {
@@ -348,6 +385,20 @@ button:hover {
   border-bottom: 1px solid #d2d3d4;
   content: '';
   margin: 5px 0 25px;
+}
+
+/* Subsection - Infobox */
+
+.subsection-infobox {
+  padding: 1% 2% 2%;
+  margin: 5% 0 1%;
+  width: 80%;
+}
+
+@media (max-width: 767px) {
+  .subsection-infobox {
+    padding: 1% 6%;
+  }
 }
 
 /* Subsection - Q&A */

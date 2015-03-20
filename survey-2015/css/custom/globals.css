@@ -72,7 +72,7 @@ sub {
   bottom: 0;
   font-weight: normal;
   font-style: italic;
-  padding-bottom:10px;
+  padding-bottom: 15px;
 }
 
 /* Type Modifiers */
@@ -83,7 +83,7 @@ sub {
 }
 
 ._small {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 ._bold {
@@ -269,7 +269,7 @@ button:hover {
 }
 
 .section-content {
-  padding: 5% 5%;
+  padding: 3% 5% 3%;
 }
 
 /* Section Block Modifiers */

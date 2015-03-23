@@ -5,6 +5,7 @@
 .side-nav {
   width: 100%;
   color: #777;
+  min-width: 220px;
 }
 
 .side-nav ul.main-nav, .side-nav ul.sub-nav, .side-nav ul.action-nav, .side-nav ul.back-to-top  {
@@ -65,8 +66,22 @@
   padding-left: 5px;
 }
 
+.side-nav .logo-nav {
+  content: url(../../img/so-logo-gray.svg);
+  width: 120px;
+  display: block;
+  padding-bottom: 8px;
+}
 
 
+.side-nav .main-nav:before {
+  width: 80%;
+  border-top: 1px solid #d2d3d4;
+  content: '';
+  display:block;
+  padding: 3px 0;
+  margin: 3px 0;
+}
 /*.side-nav a:after {
   font-family: 'FontAwesome';
   content: "\f054";

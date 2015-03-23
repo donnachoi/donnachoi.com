@@ -247,6 +247,10 @@ button:hover {
 
 /* Section Blocks */
 
+.block-header {
+padding: 10px 3px;
+}
+
 .block-splash{
   height: 300px;
   background-image: url(../../img/splash-03.svg);
@@ -339,6 +343,15 @@ button:hover {
 }
 
 /* ----- Elements ------ */
+
+/* Header */
+
+.header-logo {
+  content: url(../../img/so-logo.svg);
+  width: 140px;
+  display: block;
+  padding-bottom: 5px;
+}
 
 /* Splash */
 

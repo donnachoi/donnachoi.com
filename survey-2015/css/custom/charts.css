@@ -1776,14 +1776,6 @@
   left: 2%;
 }
 
-.bar-set.devtypes-wi ul li.devtypes-systemsplus {
-  width: 2%;
-}
-
-.bar-set.devtypes-wi ul li.devtypes-systemsplus span {
-  left: 2%;
-}
-
 .bar-set.devtypes-wi ul li.devtypes-scientist {
   width: 1%;
 }
@@ -1806,6 +1798,14 @@
 
 .bar-set.devtypes-wi ul li.devtypes-analyst span {
   left: 1%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-astro {
+  width: .3%;
+}
+
+.bar-set.devtypes-wi ul li.devtypes-astro span {
+  left: .3%;
 }
 
 .bar-set.devtypes-wi ul li.devtypes-farmer {
@@ -2659,11 +2659,11 @@
 /* --- IX. Compensation by Stack Overflow Rep --- */
 
 .bar-set ul li.compso-10000 {
-  width: 83%;
+  width: 135%;
 }
 
 .bar-set ul li.compso-10000 span {
-  left: 83%;
+  left: 135%;
 }
 
 .bar-set ul li.compso-5000 {
@@ -2674,68 +2674,20 @@
   left: 121%;
 }
 
-.bar-set ul li.compso-3000 {
-  width: 117%;
-}
-
-.bar-set ul li.compso-3000 span {
-  left: 117%;
-}
-
-.bar-set ul li.compso-2000 {
+.bar-set ul li.compso-500 {
   width: 108%;
 }
 
-.bar-set ul li.compso-2000 span {
+.bar-set ul li.compso-500 span {
   left: 108%;
 }
 
-.bar-set ul li.compso-1000 {
-  width: 109%;
-}
-
-.bar-set ul li.compso-1000 span {
-  left: 109%;
-}
-
-.bar-set ul li.compso-500 {
-  width: 103%;
-}
-
-.bar-set ul li.compso-500 span {
-  left: 103%;
-}
-
-.bar-set ul li.compso-200 {
-  width: 99%;
-}
-
-.bar-set ul li.compso-200 span {
-  left: 99%;
-}
-
-.bar-set ul li.compso-100 {
-  width: 92%;
-}
-
-.bar-set ul li.compso-100 span {
-  left: 92%;
-}
-
-.bar-set ul li.compso-50 {
-  width: 90%;
-}
-
-.bar-set ul li.compso-50 span {
-  left: 90%;
-}
-
 .bar-set ul li.compso-2 {
-  width: 86%;
+  width: 91%;
 }
 
 .bar-set ul li.compso-2 span {
-  left: 86%;
+  left: 91%;
 }
 
 .bar-set ul li.compso-1 {

@@ -82,9 +82,18 @@ sub {
   line-height: 1.8;
 }
 
+._xlarge {
+  font-size: 80px !important;
+}
+
 ._small {
   font-size: 12px !important;
 }
+
+._line-height-small {
+  line-height: .6;
+}
+
 
 ._bold {
   font-family: 'HelveticaNeue-Bd', Helvetica, Arial, sans-serif;
@@ -252,8 +261,8 @@ padding: 10px 3px;
 }
 
 .block-splash{
-  height: 300px;
-  background-image: url(../../img/splash-03.svg);
+  height: 200px;
+  background-image: url(../../img/splash-02.svg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
@@ -356,9 +365,9 @@ padding: 10px 3px;
 /* Splash */
 
 .splash-content {
-  padding: 20px;
-  margin-top: 12%;
+  margin-top: 9%;
   position: relative;
+  padding-left: 5%;
 }
 
 /* CTA */

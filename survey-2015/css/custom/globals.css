@@ -66,6 +66,12 @@ p, .p {
   line-height: 1.8;
 }
 
+p::selection, .p::selection {
+  background: #ff6d1f;
+  text-shadow: none;
+  color: #fff;
+}
+
 sub {
   font-family: 'HelveticaNeue-It', Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -282,7 +288,7 @@ padding: 10px 3px;
 }
 
 .section-content {
-  padding: 3% 5% 3%;
+  padding: 3% 5% 6%;
 }
 
 /* Section Block Modifiers */

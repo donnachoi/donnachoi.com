@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-.side-nav ul.main-nav li a, .side-nav ul.sub-nav li a, .side-nav ul.action-nav li div, .side-nav ul.action-nav li a, .side-nav ul.back-to-top li a {
+.side-nav ul.main-nav li a, .side-nav ul.sub-nav li a, .side-nav ul.action-nav li a, .side-nav ul.back-to-top li a {
   color: #777;
   width: 100%;
   text-decoration: none;

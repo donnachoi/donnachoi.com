@@ -458,6 +458,10 @@ p.res-date {
   font-style: italic;
 }
 
+p.res-description {
+  margin-bottom: 28px;
+}
+
 /* Bottom navigation */
 
 .bottom-navigation {

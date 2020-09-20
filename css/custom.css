@@ -72,7 +72,6 @@ h2 {
 @media (max-width: 767px) {
   h2 {
     font-size: 28px;
-    text-align: center;
   }
 }
 
@@ -213,12 +212,12 @@ a.purple:hover {
   padding-top: 15px;
 }
 
-.list-inline, .list-footer {
+.list-inline, .list-footer, .list-secondary {
   padding-left: 0;
   margin-left: 0;
   list-style: none;
 }
-.list-inline > li, .list-footer > li {
+.list-inline > li, .list-footer > li, .list-secondary > li {
   display: inline-block;
   margin-right: 20px;
   padding-left: 0;
@@ -229,7 +228,7 @@ a.purple:hover {
   font-size: 22px;
 }
 
-.list-footer > li {
+.list-footer > li, .list-secondary > li {
   font-size: 16px;
 }
 
@@ -276,6 +275,14 @@ a.li4 {
 
 a.li4:hover {
   box-shadow:inset 0 0 0 #fff, inset 0 1.4em 0 #EDDFEA;
+}
+
+a.li5 {
+  box-shadow:inset 0 0 0 #fff, inset 0 -0.4em 0 #F6E3D6;
+}
+
+a.li5:hover {
+  box-shadow:inset 0 0 0 #fff, inset 0 1.4em 0 #F6E3D6;
 }
 
 @media (max-width: 992px) {
@@ -404,6 +411,19 @@ img.avatar {
 @media (max-width: 767px) {
   img.avatar {
     width:35%;
+  }
+}
+
+img.work-thumb {
+  display:block;
+  margin: 0 auto;
+  padding-bottom:15px;
+  width: 95%;
+}
+
+@media (max-width: 767px) {
+  img.work-thumb {
+    width:90%;
   }
 }
 
